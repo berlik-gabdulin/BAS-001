@@ -1,0 +1,608 @@
+﻿~~CUSTOM~LOG~~[.][black][201782580] [08:05:27] Thread #12 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:05:28] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:31] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:31] Thread #5 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][840100956] [08:05:33] Thread #12 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:35] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:35] Thread #11 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][840100956] [08:05:38] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:39] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:39] Thread #10 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:44] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.123 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:44] Thread #4 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:52] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.104 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:52] Thread #6 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:05:53] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:58] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:58] Thread #12 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][201782580] [08:05:59] Thread #1 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:05:59] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.126 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:05:59] Thread #2 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:06:01] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.107 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:06:01] Thread #9 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][201782580] [08:06:20] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:06:35] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:06:36] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:06:36] Thread #13 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][840100956] [08:06:42] Thread #1 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:06:46] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:06:51] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:06:51] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:06:55] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:06:56] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:06:59] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.129 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:06:59] Thread #1 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:06:59] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:07:06] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:07:06] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:07:07] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.111 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:07:07] Thread #11 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:07:08] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:07:11] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:07:13] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[-][red][840100956] [08:07:13] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][275788184] [08:07:13] Thread #5 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:07:19] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.113 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:07:19] Thread #8 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:07:20] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.114 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:07:20] Thread #2 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:07:25] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:07:31] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:07:31] Thread #9 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:07:33] Thread #4 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:07:34] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:07:43] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:07:48] Thread #3 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:07:53] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.116 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:07:53] Thread #12 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:08:01] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.117 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:08:01] Thread #13 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:08:05] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:08:05] Thread #3 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][840100956] [08:08:07] Thread #4 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:08:08] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:08:10] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:08:22] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:08:26] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:08:26] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:08:27] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:08:28] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:08:28] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.119 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:08:28] Thread #4 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:08:30] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.120 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:08:30] Thread #6 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:08:38] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:08:39] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:08:43] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.121 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:08:43] Thread #2 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:08:46] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.122 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:08:46] Thread #1 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][201782580] [08:08:53] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:09:00] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:09:02] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.123 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:09:03] Thread #7 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:09:06] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:09:07] Thread #5 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:09:08] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:09:17] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>1 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:09:20] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.124 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:09:20] Thread #12 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:09:23] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:09:30] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.125 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:09:30] Thread #8 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][840100956] [08:09:36] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:09:38] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:09:49] Thread #11 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:09:50] Thread #5 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:09:50] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:09:53] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:09:56] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.126 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:09:56] Thread #10 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:10:01] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:10:05] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.127 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:10:05] Thread #2 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:10:05] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:10:05] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:10:05] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:10:06] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:10:09] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:10:10] Thread #4 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:10:15] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:10:17] Thread #4 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:10:21] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.128 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:10:21] Thread #9 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:10:32] Thread #11 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:10:35] Thread #5 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:10:36] Thread #13 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:10:37] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:10:41] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:10:45] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:10:45] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.129 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:10:45] Thread #1 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:10:50] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:10:51] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.130 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:10:51] Thread #11 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:10:51] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.131 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:10:51] Thread #13 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:00] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:11:00] Thread #6 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:11:03] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:04] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.133 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:11:04] Thread #7 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:05] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.134 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:11:05] Thread #12 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][201782580] [08:11:18] Thread #4 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:11:18] Thread #5 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:11:22] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:11:24] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:11:27] Thread #3 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:27] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.135 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:11:27] Thread #10 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:11:28] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:32] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.136 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:11:32] Thread #5 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:11:39] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:11:42] Thread #2 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:44] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.137 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:11:44] Thread #3 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][840100956] [08:11:49] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:11:52] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:11:55] Thread #2 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:11:58] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:11:59] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:12:00] Thread #8 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:12:07] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:12:07] Thread #1 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:12:07] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:12:12] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[-][red][147796663] [08:12:12] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][275788184] [08:12:12] Thread #13 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:12:20] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:12:24] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:12:27] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.123 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:12:27] Thread #12 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:12:30] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:12:35] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:12:35] Thread #2 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:12:36] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:12:37] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.104 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:12:37] Thread #11 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:12:39] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:12:40] Thread #4 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:12:45] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:12:52] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:12:55] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:12:55] Thread #5 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:13:06] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:13:06] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:13:14] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:13:18] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:13:19] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:13:20] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:13:23] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.126 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:13:23] Thread #3 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:13:24] Thread #4 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:13:31] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.107 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:13:31] Thread #1 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:13:35] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:13:35] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:13:35] Thread #9 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:13:38] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.129 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:13:38] Thread #13 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:13:42] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:13:44] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:13:45] Thread #2 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:13:51] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:13:51] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.111 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:13:51] Thread #6 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:13:55] Thread #4 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:14:02] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:14:02] Thread #2 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:14:03] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:14:10] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.113 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:14:10] Thread #4 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][201782580] [08:14:13] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:14:29] Thread #11 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:14:30] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:14:34] Thread #8 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:14:35] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:14:38] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:14:41] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:14:42] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:14:45] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:14:48] Thread #3 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:14:49] Thread #12 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:14:53] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.114 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:14:53] Thread #1 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:14:58] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:15:02] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:15:05] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:15:05] Thread #13 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][840100956] [08:15:07] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:15:09] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:15:12] Thread #11 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:15:15] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.116 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:15:16] Thread #6 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:15:17] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:15:17] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:15:23] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:15:27] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:15:28] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.117 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:15:28] Thread #2 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:15:30] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:15:30] Thread #11 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][201782580] [08:15:40] Thread #5 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:15:45] Thread #8 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:15:52] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:15:53] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.119 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:15:53] Thread #5 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:16:00] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.120 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:16:00] Thread #8 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:00] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:16:00] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:03] Thread #3 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:08] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:10] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:11] Thread #12 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:14] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:15] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:16:16] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:18] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:22] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:16:33] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:16:35] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:35] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:16:37] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:16:37] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.121 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:16:37] Thread #9 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:49] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:50] Thread #4 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:16:52] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.122 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:16:52] Thread #6 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:16:54] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.123 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:16:54] Thread #2 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:56] Thread #12 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:16:56] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:16:59] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:17:00] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:17:07] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:17:07] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:17:14] Thread #1 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:17:17] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:17:21] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.124 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:17:21] Thread #8 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:17:22] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.125 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:17:22] Thread #3 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:17:37] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.126 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:17:37] Thread #7 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:17:39] Thread #12 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:17:42] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:17:43] Thread #4 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:17:44] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:17:45] Thread #5 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:17:50] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.127 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:17:50] Thread #1 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:17:53] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.128 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:17:53] Thread #12 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:17:56] Thread #11 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:17:59] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:18:00] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.129 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:18:00] Thread #4 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:18:02] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>1 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:18:02] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.130 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:18:02] Thread #9 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][201782580] [08:18:04] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:18:19] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.131 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:18:19] Thread #10 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:18:27] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:18:27] Thread #11 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:18:28] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:18:28] Thread #5 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:18:29] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:18:36] Thread #13 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:18:42] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:18:45] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:18:46] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.133 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:18:46] Thread #3 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][201782580] [08:18:46] Thread #2 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:18:52] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.134 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:18:52] Thread #13 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:18:57] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>1 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:01] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.135 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:01] Thread #7 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:19:07] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:19:09] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:19:11] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:19:13] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:18] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.136 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:18] Thread #1 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:22] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.137 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:22] Thread #4 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:19:25] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:19:26] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:19:26] Thread #2 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:28] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:28] Thread #12 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:32] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:32] Thread #9 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:19:34] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:19:35] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:19:40] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:48] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:48] Thread #6 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:51] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.123 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:51] Thread #11 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:19:54] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.104 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:19:54] Thread #10 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:19:56] Thread #8 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:20:02] Thread #2 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:03] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:06] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:20:07] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:07] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:20:12] Thread #5 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:20:13] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:20:13] Thread #8 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:20:21] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.126 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:20:21] Thread #3 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:20:25] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.107 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:20:25] Thread #7 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:25] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:29] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:35] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:20:38] Thread #12 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:20:40] Thread #12 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:20:42] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:20:42] Thread #1 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:46] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:20:47] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.129 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:20:47] Thread #4 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][201782580] [08:20:50] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:20:52] Thread #2 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:20:56] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:01] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.111 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:01] Thread #9 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:02] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:02] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:06] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:06] Thread #2 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][201782580] [08:21:09] Thread #11 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:10] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.113 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:10] Thread #6 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][840100956] [08:21:16] Thread #11 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:16] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.114 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:16] Thread #10 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:20] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:21:23] Thread #11 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:21:24] Thread #12 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:28] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:21:29] Thread #5 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:21:30] Thread #11 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:21:34] Thread #13 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:36] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:37] Thread #8 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:43] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.116 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:43] Thread #5 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:50] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.117 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:50] Thread #13 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:51] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:21:52] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:52] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:21:54] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:21:55] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:21:55] Thread #11 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][840100956] [08:22:08] Thread #12 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:08] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:10] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.119 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:10] Thread #4 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:10] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.120 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:10] Thread #1 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:13] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:18] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:23] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.121 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:23] Thread #9 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:23] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:23] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.122 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:23] Thread #12 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:28] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.123 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:28] Thread #3 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:28] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.124 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:28] Thread #2 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:22:36] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:37] Thread #6 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.125 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:37] Thread #6 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:22:39] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.126 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:22:40] Thread #10 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:44] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:50] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:22:57] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:00] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.127 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:00] Thread #8 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:03] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>1 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:09] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.128 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:09] Thread #5 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:16] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.129 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:16] Thread #13 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:17] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:17] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>1 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:18] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.130 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:19] Thread #11 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][840100956] [08:23:20] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:23:28] Thread #1 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:30] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:30] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:23:33] Thread #1 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:34] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:39] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:23:42] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:43] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.131 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:43] Thread #7 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:45] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:45] Thread #12 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][840100956] [08:23:49] Thread #3 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:49] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.133 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:49] Thread #9 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:23:50] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:51] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.134 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:51] Thread #4 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:23:55] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.135 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:23:55] Thread #2 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:24:04] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.136 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:24:04] Thread #3 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:07] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>0 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:24:11] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.137 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:24:11] Thread #1 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:16] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:23] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:26] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:24:26] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:24:26] Thread #8 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:37] Thread #6 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:24:38] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:24:38] Thread #5 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:24:39] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10 Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:24:39] Thread #13 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:24:42] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.123 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:24:42] Thread #11 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:50] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:57] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:24:59] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:25:06] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:09] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10 Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.104 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:09] Thread #7 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:10] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:17] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:17] Thread #12 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:17] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:18] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:25:22] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:26] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.126 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:26] Thread #10 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:27] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.107 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:27] Thread #2 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:28] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:33] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>2 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:37] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:37] Thread #4 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:42] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.129 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:42] Thread #1 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][201782580] [08:25:44] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:47] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.111 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:47] Thread #3 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:49] Thread #13 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>10 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:49] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:25:50] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.112 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:25:50] Thread #8 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:25:51] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:26:05] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.113 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:26:05] Thread #11 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][840100956] [08:26:05] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:26:07] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.114 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:26:07] Thread #5 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:26:16] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:26:24] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:26:27] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:26:31] Thread #7 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.115 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:26:31] Thread #7 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:26:33] Thread #10 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:26:34] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:26:35] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:26:39] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.116 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:26:39] Thread #12 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[-][red][147796663] [08:26:44] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:26:57] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:26:57] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.117 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:26:57] Thread #2 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[.][black][311540308] [08:27:02] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.118 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:27:02] Thread #4 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][147796663] [08:27:09] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:27:11] Thread #9 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:27:12] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>4 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:27:14] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:27:15] Thread #1 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:27:17] Thread #13 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:27:20] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.119 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:27:20] Thread #8 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:27:21] Thread #3 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>1 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:27:26] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:27:30] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.120 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:27:30] Thread #11 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][311540308] [08:27:30] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.121 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:27:30] Thread #1 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:27:31] Thread #5 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.122 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:27:31] Thread #5 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][840100956] [08:27:33] Thread #13 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:27:36] Thread #10 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:27:38] Thread #7 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:27:48] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:27:55] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][840100956] [08:27:55] Thread #9 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:28:04] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:28:06] Thread #3 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:28:09] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:28:09] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.123 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:28:10] Thread #12 : RANDOM_TIMEOUT = 5
+~~CUSTOM~LOG~~[.][black][311540308] [08:28:10] Thread #9 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.124 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:28:10] Thread #9 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[.][black][201782580] [08:28:18] Thread #13 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][201782580] [08:28:23] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:28:25] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.125 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:28:25] Thread #4 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][311540308] [08:28:29] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.126 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:28:29] Thread #2 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[-][red][147796663] [08:28:37] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:28:38] Thread #1 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>3 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:28:38] Thread #5 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:28:40] Thread #8 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>5 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:28:48] Thread #8 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:28:49] Thread #13 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:28:49] Thread #6 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:28:49] Thread #3 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:28:51] Thread #11 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.127 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:28:51] Thread #11 : RANDOM_TIMEOUT = 2
+~~CUSTOM~LOG~~[-][red][840100956] [08:28:54] Thread #8 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:28:58] Thread #10 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][201782580] [08:29:03] Thread #1 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:12] Thread #8 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.128 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:12] Thread #8 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:14] Thread #10 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.129 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:14] Thread #10 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:15] Thread #3 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.130 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:15] Thread #3 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[-][red][147796663] [08:29:16] Thread #12 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[-][red][147796663] [08:29:17] Thread #9 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>7 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:21] Thread #1 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.131 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:21] Thread #1 : RANDOM_TIMEOUT = 3
+~~CUSTOM~LOG~~[.][black][201782580] [08:29:23] Thread #5 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:28] Thread #13 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:28] Thread #13 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][840100956] [08:29:31] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][147796663] [08:29:32] Thread #4 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>9 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][201782580] [08:29:34] Thread #6 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][147796663] [08:29:36] Thread #2 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>6 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:38] Thread #12 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.133 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:39] Thread #12 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:29:39] Thread #7 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:29:45] Thread #7 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:55] Thread #2 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.134 Mobile Safari/537.36Mozilla/5.0 (Linux; Android 9; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:55] Thread #2 : RANDOM_TIMEOUT = 4
+~~CUSTOM~LOG~~[-][red][147796663] [08:29:58] Thread #11 : Thread ended with message "Failed to wait for css " >CSS> iframe >AT>8 >FRAME> >CSS> a""
+~~CUSTOM~LOG~~[.][black][311540308] [08:29:59] Thread #4 : Новый UserAgent загружен Mozilla/5.0 (Linux; Android 10; Redmi Note 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.135 Mobile Safari/537.36
+~~CUSTOM~LOG~~[.][black][275788184] [08:29:59] Thread #4 : RANDOM_TIMEOUT = 1
+~~CUSTOM~LOG~~[.][black][201782580] [08:30:03] Thread #11 : Произошла ошибка : Failed to get proxy ip
+~~CUSTOM~LOG~~[-][red][840100956] [08:30:06] Thread #5 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[-][red][840100956] [08:30:06] Thread #11 : Thread ended with message "Failed to get proxy ip"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #1 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #2 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #3 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #4 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #5 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #6 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #7 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #8 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #9 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #10 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #11 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #12 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][green][08:30:12] Thread #13 : Thread succeeded with message "Ok"
+~~CUSTOM~LOG~~[+][black][08:30:12] Script finished correctly
