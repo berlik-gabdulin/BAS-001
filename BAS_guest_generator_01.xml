@@ -856,6 +856,83 @@ section(RESOURCE_1 /*{{Threads}}*/,1000 /*1000*/,1000 /*1000*/,0,function(){
       log("Не хочу ничего читать, хочу кликнуть сразу на объявление")
       section_end()!
 
+      section_start("", 956298231)!
+      /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      /*Browser*/
+      IDDLE_EMULATION_END = Date.now() + 1000 * (30)
+      IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
+      IDDLE_CURSOR_POSITION_X = -1
+      IDDLE_CURSOR_POSITION_Y = -1
+      IDDLE_CURSOR_POSITION_WAS_SCROLL = false
+      page().script("window.innerWidth")!
+      IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
+      page().script("window.innerHeight")!
+      IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
+      _do(function(){
+      if(Date.now() >= IDDLE_EMULATION_END)
+      _break()
+      IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
+      if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
+      IDDLE_EMULATION_CURRENT_ITEM = 2
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
+      //scroll
+      IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
+      if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
+      IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
+      IDDLE_CURSOR_POSITION_WAS_SCROLL = true
+      IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
+      _do(function(){
+      if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+      _break()
+      _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
+      sleep(rand(300,1000))!
+      })!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
+      //long move
+      page().script("document.documentElement.scrollLeft")!
+      IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+      page().script("document.documentElement.scrollTop")!
+      IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+      IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
+      IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
+      move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
+      //short move
+      if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
+      _break()
+      page().script("document.documentElement.scrollLeft")!
+      IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+      page().script("document.documentElement.scrollTop")!
+      IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+      IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
+      _do(function(){
+      if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+      _break()
+      IDDLE_CURSOR_POSITION_X += rand(-50,50)
+      IDDLE_CURSOR_POSITION_Y += rand(-50,50)
+      if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
+      IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
+      if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
+      IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
+      if(IDDLE_CURSOR_POSITION_X < 0)
+      IDDLE_CURSOR_POSITION_X = 0
+      if(IDDLE_CURSOR_POSITION_Y < 0)
+      IDDLE_CURSOR_POSITION_Y = 0
+      move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+      _if(rand(1,10) > 3,function(){
+      sleep(rand(10,300))!
+      })!
+      })!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
+      //sleep
+      sleep(rand(500,5000))!
+      })!
+      })!
+      section_end()!
+
       section_start("", 955279145)!
       /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGlmcmFtZSA+QVQ+W1tSQU5ET01fQUREXV0gPkZSQU1FPiA+Q1NTPiBhIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gI2Fzd2lmdF8xID5GUkFNRT4gPkNTUz4gOm50aC1jaGlsZCgzKSA+IDpudGgtY2hpbGQoMykiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IGlucyA+IGlmcmFtZSA+RlJBTUU+ID5DU1M+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDMpIiwiY3NzMyI6IiA+Q1NTPiAjYXN3aWZ0XzEgPkZSQU1FPiA+Q1NTPiAubnMtczY4cDUtZS0xNiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48aWZyYW1lIGlkPVwiYXN3aWZ0XzFcIiBuYW1lPVwiYXN3aWZ0XzFcIiBzdD5GUkFNRT4+TUFUQ0g+PGRpdiBjbGFzcz1cIm5zLXM2OHA1LWUtMTYgcm93LWNvbnRhaW5lclwiIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcImFzd2lmdF8xXCIpID5GUkFNRT4gPlhQQVRIPiBpZChcIm1hZ25ldG8tc21hbGxcIikvZGl2W0BjbGFzcz1cIm5zLXM2OHA1LWUtMTIgcm93LWNvbnRhaW5lclwiXS9kaXZbQGNsYXNzPVwibnMtczY4cDUtZS0xNiByb3ctY29udGFpbmVyXCJdIiwiYXQiOiIyNDcsIDMxNSIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
       /*Browser*/
@@ -867,6 +944,83 @@ section(RESOURCE_1 /*{{Threads}}*/,1000 /*1000*/,1000 /*1000*/,0,function(){
       get_element_selector(_SELECTOR, false).clarify(X,Y)!
       _call(_clarify, {} )!
       mouse(X,Y)!
+      })!
+      section_end()!
+
+      section_start("", 221919671)!
+      /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      /*Browser*/
+      IDDLE_EMULATION_END = Date.now() + 1000 * (30)
+      IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
+      IDDLE_CURSOR_POSITION_X = -1
+      IDDLE_CURSOR_POSITION_Y = -1
+      IDDLE_CURSOR_POSITION_WAS_SCROLL = false
+      page().script("window.innerWidth")!
+      IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
+      page().script("window.innerHeight")!
+      IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
+      _do(function(){
+      if(Date.now() >= IDDLE_EMULATION_END)
+      _break()
+      IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
+      if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
+      IDDLE_EMULATION_CURRENT_ITEM = 2
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
+      //scroll
+      IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
+      if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
+      IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
+      IDDLE_CURSOR_POSITION_WAS_SCROLL = true
+      IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
+      _do(function(){
+      if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+      _break()
+      _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
+      sleep(rand(300,1000))!
+      })!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
+      //long move
+      page().script("document.documentElement.scrollLeft")!
+      IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+      page().script("document.documentElement.scrollTop")!
+      IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+      IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
+      IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
+      move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
+      //short move
+      if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
+      _break()
+      page().script("document.documentElement.scrollLeft")!
+      IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+      page().script("document.documentElement.scrollTop")!
+      IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+      IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
+      _do(function(){
+      if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+      _break()
+      IDDLE_CURSOR_POSITION_X += rand(-50,50)
+      IDDLE_CURSOR_POSITION_Y += rand(-50,50)
+      if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
+      IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
+      if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
+      IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
+      if(IDDLE_CURSOR_POSITION_X < 0)
+      IDDLE_CURSOR_POSITION_X = 0
+      if(IDDLE_CURSOR_POSITION_Y < 0)
+      IDDLE_CURSOR_POSITION_Y = 0
+      move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+      _if(rand(1,10) > 3,function(){
+      sleep(rand(10,300))!
+      })!
+      })!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
+      //sleep
+      sleep(rand(500,5000))!
+      })!
       })!
       section_end()!
 
@@ -949,15 +1103,15 @@ Detector=true
     &quot;Excel&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -970,7 +1124,7 @@ Detector=true
      <ModelList>
           <Model>
                <Name>Proxy</Name>
-               <Description ru="Список Proxy из файла" en="Proxy"/>
+               <Description en="Proxy" ru="Список Proxy из файла"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -994,7 +1148,7 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>UserAgents</Name>
-               <Description ru="Список UserAgents" en="UserAgents"/>
+               <Description en="UserAgents" ru="Список UserAgents"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1018,7 +1172,7 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Threads</Name>
-               <Description ru="Количество потоков" en="Threads count"/>
+               <Description en="Threads count" ru="Количество потоков"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1035,7 +1189,7 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>Threads</Name>
-                    <Description ru="Количество потоков" en="Threads count"/>
+                    <Description en="Threads count" ru="Количество потоков"/>
                     <SectionName ru=""/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1051,7 +1205,7 @@ Detector=true
           </Defaults>
           <Model>
                <Name>SearchRequest</Name>
-               <Description ru="Поисковой запрос" en="SearchRequest"/>
+               <Description en="SearchRequest" ru="Поисковой запрос"/>
                <SectionName ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
