@@ -10,38 +10,99 @@ section(RESOURCE_1 /*{{Threads}}*/,1000 /*1000*/,1000 /*1000*/,0,function(){
 
    _call(_on_start, null)!
 
-   section_start("", 449451541)!
-   /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1Byb3h5fX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVR5cGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InNvY2tzNSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5TG9naW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5UGFzc3dvcmQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVRpbWV6b25lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlR2VvbG9jYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VXZWJydGNJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUJyb3dzZXJMYW5ndWFnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkRldGVjdEV4dGVybmFsSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEluZm9NZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRhdGFiYXNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBBcGlLZXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IiJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-   RS("Proxy", false, false)!
-   RESOURCE_269200 = _result().get()
-   /*Browser*/
-   var hash = proxy_parse(RESOURCE_269200)
-   if("socks5" != "auto" ){
-   hash["IsHttp"] = "socks5" == "http"
-   }
-   var login = ""
-   var password = ""
-   if(login.length > 0 && password.length > 0 )
+   section_start("", 960072252)!
+   /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+   _call(function()
    {
-   hash["name"] = login
-   hash["password"] = password
-   }
-   if(_get_profile().length > 0)
-   {
-   if(hash["server"].length == 0)
-   {
-   native("filesystem", "removefile", _get_profile() + "/proxy.txt")
-   }else
-   {
-   var PortNumber = hash["Port"]
-   hash["Port"] = hash["Port"].toString()
-   native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
-   hash["Port"] = PortNumber
-   }
-   }
-   set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
-   sleep(1000)!
-   set_proxy_extended("true" == "true", "true" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
+   _on_fail(function(){
+   VAR_LAST_ERROR = _result()
+   VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+   VAR_WAS_ERROR = false
+   _break(1,true)
+   })
+   CYCLES.Current().RemoveLabel("function")
+   section_insert()
+      section_start("", 596884830)!
+      /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1Byb3h5fX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVR5cGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InNvY2tzNSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5TG9naW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5UGFzc3dvcmQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVRpbWV6b25lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlR2VvbG9jYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VXZWJydGNJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUJyb3dzZXJMYW5ndWFnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkRldGVjdEV4dGVybmFsSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEluZm9NZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRhdGFiYXNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBBcGlLZXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IiJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      RS("Proxy", false, false)!
+      RESOURCE_480758 = _result().get()
+      /*Browser*/
+      var hash = proxy_parse(RESOURCE_480758)
+      if("socks5" != "auto" ){
+      hash["IsHttp"] = "socks5" == "http"
+      }
+      var login = ""
+      var password = ""
+      if(login.length > 0 && password.length > 0 )
+      {
+      hash["name"] = login
+      hash["password"] = password
+      }
+      if(_get_profile().length > 0)
+      {
+      if(hash["server"].length == 0)
+      {
+      native("filesystem", "removefile", _get_profile() + "/proxy.txt")
+      }else
+      {
+      var PortNumber = hash["Port"]
+      hash["Port"] = hash["Port"].toString()
+      native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
+      hash["Port"] = PortNumber
+      }
+      }
+      set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
+      sleep(1000)!
+      set_proxy_extended("true" == "true", "true" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
+      section_end()!
+
+   },null)!
+   section_end()!
+
+   section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 554555337)!
+   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+   _if(VAR_WAS_ERROR,function(){
+   section_insert()
+      section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 201782580)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCf0YDQvtC40LfQvtGI0LvQsCDQvtGI0LjQsdC60LAgOiBbW0xBU1RfRVJST1JdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      log("Произошла ошибка : " + VAR_LAST_ERROR)
+      section_end()!
+
+      section_start("", 840100956)!
+      /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1Byb3h5fX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVR5cGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InNvY2tzNSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5TG9naW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5UGFzc3dvcmQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVRpbWV6b25lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlR2VvbG9jYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VXZWJydGNJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUJyb3dzZXJMYW5ndWFnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkRldGVjdEV4dGVybmFsSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEluZm9NZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImRhdGFiYXNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBBcGlLZXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IiJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      RS("Proxy", false, false)!
+      RESOURCE_952977 = _result().get()
+      /*Browser*/
+      var hash = proxy_parse(RESOURCE_952977)
+      if("socks5" != "auto" ){
+      hash["IsHttp"] = "socks5" == "http"
+      }
+      var login = ""
+      var password = ""
+      if(login.length > 0 && password.length > 0 )
+      {
+      hash["name"] = login
+      hash["password"] = password
+      }
+      if(_get_profile().length > 0)
+      {
+      if(hash["server"].length == 0)
+      {
+      native("filesystem", "removefile", _get_profile() + "/proxy.txt")
+      }else
+      {
+      var PortNumber = hash["Port"]
+      hash["Port"] = hash["Port"].toString()
+      native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
+      hash["Port"] = PortNumber
+      }
+      }
+      set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
+      sleep(1000)!
+      set_proxy_extended("true" == "true", "true" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
+      section_end()!
+
+   })!
    section_end()!
 
    section_start("", 257154326)!
@@ -173,9 +234,43 @@ section(RESOURCE_1 /*{{Threads}}*/,1000 /*1000*/,1000 /*1000*/,0,function(){
    section_end()!
 
    section_start("", 596311943)!
-   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2RyaXZlLWxpZmUuY29tLyIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2RyaXZlLWxpZmUuY29tLyIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
    /*Browser*/
-   load("https://drive-life.com/")!
+   load_instant("https://drive-life.com/")!
+   section_end()!
+
+   section_start("", 147796663)!
+   /*Dat:eyJzIjoid2FpdGNzcyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJXYWl0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIgPkNTUz4gaWZyYW1lID5BVD5bW1JBTkRPTV9BRERdXSA+RlJBTUU+ID5DU1M+IGEiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   /*Browser*/
+   wait_css(" \u003eCSS\u003e iframe \u003eAT\u003e" + VAR_RANDOM_ADD + " \u003eFRAME\u003e \u003eCSS\u003e a")!
+   section_end()!
+
+   section_start("", 583771757)!
+   /*Dat:eyJzIjoic2Nyb2xsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMzAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IlgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJZIiwidHlwZSI6ImNvbnN0ciIsImpzb24iOiJbe1wibmFtZVwiOlwicmVzdWx0XCIsXCJpZFwiOlwiMFwiLFwieFwiOjIyMDAsXCJ5XCI6MjAwMH0se1wibmFtZVwiOlwicmFuZG9tIG51bWJlclwiLFwiaWRcIjpcIjFcIixcInhcIjoxNjc2LFwieVwiOjE4ODV9LHtcInR5cGVcIjpcImxpbmtcIixcInNvdXJjZVwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCItXCJ9LFwidGFyZ2V0XCI6e1wiaWRcIjpcIjBcIixcInBvcnRcIjpcIi1cIn19LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCIxMFwiLFwiZGF0YW9yaWdpbmFsXCI6XCIxMFwiLFwiZGF0YXR5cGVcIjpcImludFwiLFwiaWRcIjpcIjJcIixcInhcIjoxNDk1LFwieVwiOjE4MzN9LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCIzMDBcIixcImRhdGFvcmlnaW5hbFwiOlwiMzAwXCIsXCJkYXRhdHlwZVwiOlwiaW50XCIsXCJpZFwiOlwiM1wiLFwieFwiOjE0OTEsXCJ5XCI6MTkzOX0se1widHlwZVwiOlwibGlua1wiLFwic291cmNlXCI6e1wiaWRcIjpcIjNcIixcInBvcnRcIjpcIi1cIn0sXCJ0YXJnZXRcIjp7XCJpZFwiOlwiMVwiLFwicG9ydFwiOlwibWluXCJ9fSx7XCJ0eXBlXCI6XCJsaW5rXCIsXCJzb3VyY2VcIjp7XCJpZFwiOlwiMlwiLFwicG9ydFwiOlwiLVwifSxcInRhcmdldFwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCJtYXhcIn19XSIsImRhdGEiOiJNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAoLTMwMCAtIDMwMCArIDEpKSArIDMwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+   /*Browser*/
+   _scroll_to(Math.floor(Math.random() * (-300 - 300 + 1)) + 300)!
+   section_end()!
+
+   section_start("", 506080639)!
+   /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+   sleep(rand(1000,5000))!
+   section_end()!
+
+   section_start("", 679919725)!
+   /*Dat:eyJzIjoic2Nyb2xsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMzAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IlgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJZIiwidHlwZSI6ImNvbnN0ciIsImpzb24iOiJbe1wibmFtZVwiOlwicmVzdWx0XCIsXCJpZFwiOlwiMFwiLFwieFwiOjIyMDAsXCJ5XCI6MjAwMH0se1wibmFtZVwiOlwicmFuZG9tIG51bWJlclwiLFwiaWRcIjpcIjFcIixcInhcIjoxNjc2LFwieVwiOjE4ODV9LHtcInR5cGVcIjpcImxpbmtcIixcInNvdXJjZVwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCItXCJ9LFwidGFyZ2V0XCI6e1wiaWRcIjpcIjBcIixcInBvcnRcIjpcIi1cIn19LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCIxMFwiLFwiZGF0YW9yaWdpbmFsXCI6XCIxMFwiLFwiZGF0YXR5cGVcIjpcImludFwiLFwiaWRcIjpcIjJcIixcInhcIjoxNDk1LFwieVwiOjE4MzN9LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCIzMDBcIixcImRhdGFvcmlnaW5hbFwiOlwiMzAwXCIsXCJkYXRhdHlwZVwiOlwiaW50XCIsXCJpZFwiOlwiM1wiLFwieFwiOjE0OTEsXCJ5XCI6MTkzOX0se1widHlwZVwiOlwibGlua1wiLFwic291cmNlXCI6e1wiaWRcIjpcIjNcIixcInBvcnRcIjpcIi1cIn0sXCJ0YXJnZXRcIjp7XCJpZFwiOlwiMVwiLFwicG9ydFwiOlwibWluXCJ9fSx7XCJ0eXBlXCI6XCJsaW5rXCIsXCJzb3VyY2VcIjp7XCJpZFwiOlwiMlwiLFwicG9ydFwiOlwiLVwifSxcInRhcmdldFwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCJtYXhcIn19XSIsImRhdGEiOiJNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAoLTMwMCAtIDMwMCArIDEpKSArIDMwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+   /*Browser*/
+   _scroll_to(Math.floor(Math.random() * (-300 - 300 + 1)) + 300)!
+   section_end()!
+
+   section_start("", 403953924)!
+   /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+   sleep(rand(1000,5000))!
+   section_end()!
+
+   section_start("", 823437654)!
+   /*Dat:eyJzIjoic2Nyb2xsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMzAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IlgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJZIiwidHlwZSI6ImNvbnN0ciIsImpzb24iOiJbe1wibmFtZVwiOlwicmVzdWx0XCIsXCJpZFwiOlwiMFwiLFwieFwiOjIyMDAsXCJ5XCI6MjAwMH0se1wibmFtZVwiOlwicmFuZG9tIG51bWJlclwiLFwiaWRcIjpcIjFcIixcInhcIjoxNjc2LFwieVwiOjE4ODV9LHtcInR5cGVcIjpcImxpbmtcIixcInNvdXJjZVwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCItXCJ9LFwidGFyZ2V0XCI6e1wiaWRcIjpcIjBcIixcInBvcnRcIjpcIi1cIn19LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCIxMFwiLFwiZGF0YW9yaWdpbmFsXCI6XCIxMFwiLFwiZGF0YXR5cGVcIjpcImludFwiLFwiaWRcIjpcIjJcIixcInhcIjoxNDk1LFwieVwiOjE4MzN9LHtcIm5hbWVcIjpcInZhbHVlXCIsXCJkYXRhXCI6XCIzMDBcIixcImRhdGFvcmlnaW5hbFwiOlwiMzAwXCIsXCJkYXRhdHlwZVwiOlwiaW50XCIsXCJpZFwiOlwiM1wiLFwieFwiOjE0OTEsXCJ5XCI6MTkzOX0se1widHlwZVwiOlwibGlua1wiLFwic291cmNlXCI6e1wiaWRcIjpcIjNcIixcInBvcnRcIjpcIi1cIn0sXCJ0YXJnZXRcIjp7XCJpZFwiOlwiMVwiLFwicG9ydFwiOlwibWluXCJ9fSx7XCJ0eXBlXCI6XCJsaW5rXCIsXCJzb3VyY2VcIjp7XCJpZFwiOlwiMlwiLFwicG9ydFwiOlwiLVwifSxcInRhcmdldFwiOntcImlkXCI6XCIxXCIsXCJwb3J0XCI6XCJtYXhcIn19XSIsImRhdGEiOiJNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAoLTMwMCAtIDMwMCArIDEpKSArIDMwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+   /*Browser*/
+   _scroll_to(Math.floor(Math.random() * (-300 - 300 + 1)) + 300)!
    section_end()!
 
    section_start("", 53712014)!
@@ -856,10 +951,10 @@ section(RESOURCE_1 /*{{Threads}}*/,1000 /*1000*/,1000 /*1000*/,0,function(){
       log("Не хочу ничего читать, хочу кликнуть сразу на объявление")
       section_end()!
 
-      section_start("", 956298231)!
-      /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      section_start("", 295714683)!
+      /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjkwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
       /*Browser*/
-      IDDLE_EMULATION_END = Date.now() + 1000 * (30)
+      IDDLE_EMULATION_END = Date.now() + 1000 * (90)
       IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
       IDDLE_CURSOR_POSITION_X = -1
       IDDLE_CURSOR_POSITION_Y = -1
@@ -1027,6 +1122,83 @@ section(RESOURCE_1 /*{{Threads}}*/,1000 /*1000*/,1000 /*1000*/,0,function(){
       section_start("", 228817347)!
       /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCd0LDRiNC10Lsg0LjQvdGC0LXRgNC10YHQvdC+0LUg0L7QsdGK0Y/QstC70LXQvdC40LUsINC60LvQuNC60L3Rg9C7ISIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
       log("Нашел интересное объявление, кликнул!")
+      section_end()!
+
+      section_start("", 23410755)!
+      /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjQwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      /*Browser*/
+      IDDLE_EMULATION_END = Date.now() + 1000 * (40)
+      IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
+      IDDLE_CURSOR_POSITION_X = -1
+      IDDLE_CURSOR_POSITION_Y = -1
+      IDDLE_CURSOR_POSITION_WAS_SCROLL = false
+      page().script("window.innerWidth")!
+      IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
+      page().script("window.innerHeight")!
+      IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
+      _do(function(){
+      if(Date.now() >= IDDLE_EMULATION_END)
+      _break()
+      IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
+      if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
+      IDDLE_EMULATION_CURRENT_ITEM = 2
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
+      //scroll
+      IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
+      if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
+      IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
+      IDDLE_CURSOR_POSITION_WAS_SCROLL = true
+      IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
+      _do(function(){
+      if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+      _break()
+      _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
+      sleep(rand(300,1000))!
+      })!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
+      //long move
+      page().script("document.documentElement.scrollLeft")!
+      IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+      page().script("document.documentElement.scrollTop")!
+      IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+      IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
+      IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
+      move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
+      //short move
+      if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
+      _break()
+      page().script("document.documentElement.scrollLeft")!
+      IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+      page().script("document.documentElement.scrollTop")!
+      IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+      IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
+      _do(function(){
+      if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+      _break()
+      IDDLE_CURSOR_POSITION_X += rand(-50,50)
+      IDDLE_CURSOR_POSITION_Y += rand(-50,50)
+      if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
+      IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
+      if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
+      IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
+      if(IDDLE_CURSOR_POSITION_X < 0)
+      IDDLE_CURSOR_POSITION_X = 0
+      if(IDDLE_CURSOR_POSITION_Y < 0)
+      IDDLE_CURSOR_POSITION_Y = 0
+      move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+      _if(rand(1,10) > 3,function(){
+      sleep(rand(10,300))!
+      })!
+      })!
+      })!
+      _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
+      //sleep
+      sleep(rand(500,5000))!
+      })!
+      })!
       section_end()!
 
    })!
