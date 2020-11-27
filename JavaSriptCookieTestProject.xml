@@ -14,6 +14,11 @@
    VAR_NEW_VARIABLE = RESOURCE_610263
    section_end()!
 
+   section_start("", 981581894)!
+   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbTkVXX1ZBUklBQkxFXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+   log(VAR_NEW_VARIABLE)
+   section_end()!
+
    section_start("", 121685769)!
    /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ5YWhvby5jb20iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
    /*Browser*/
@@ -227,7 +232,7 @@ ToolboxHeight=420
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=509
+ScenarioWidth=510
 Zoom=100
 IsMaximized=false
 Restart=true

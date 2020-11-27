@@ -1,4 +1,3 @@
-google.com
-yandex.com
-bing.com placeholder="Search the web"
-yahoo.com
+{"engine": "bing.com","search_selector": "#sb_form_q","submit_btn": "label > svg","result_selecor": "h2 > a","addListener": "false"}
+{"engine": "yandex.com","search_selector": "#text","submit_btn": ".search2__button > .button","result_selecor": "h2 > a","addListener": "false"}
+{"engine": "yahoo.com","search_selector": "#ybar-sbq","submit_btn": ".rapid-noclick-resp","result_selecor": "h3 > a","addListener": "true"}
