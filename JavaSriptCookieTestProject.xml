@@ -975,9 +975,10 @@
    _result_function()
    section_end()!
 
-   section_start("", 686744465)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IkRvQ2xpY2tzIn1dfQ==*/
-   _call(DoClicks,null)!
+   section_start("", 563269530)!
+   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IkRvX0NsaWNrcyJ9XX0=*/
+   _call_function(Do_Clicks,{})!
+   _result_function()
    section_end()!
 
 })!]]></Script>
@@ -1016,7 +1017,7 @@ ToolboxHeight=363
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=512
+ScenarioWidth=515
 Zoom=100
 IsMaximized=false
 Restart=false
