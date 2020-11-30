@@ -285,20 +285,20 @@
          section_start("\u007b\u0022n\u0022:\u0022Setting proxy from resource\u0022\u007d", 70861670)!
          /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1BST1hJRVN9fSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5VHlwZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3tQUk9YWV9UWVBFfX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eUxvZ2luIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1BST1hZX0xPR0lOfX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVBhc3N3b3JkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1BST1hZX1BBU1NXT1JEfX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VUaW1lem9uZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUdlb2xvY2F0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJmYWxzZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVdlYnJ0Y0lwIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlQnJvd3Nlckxhbmd1YWdlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiRGV0ZWN0RXh0ZXJuYWxJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklwSW5mb01ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZGF0YWJhc2UiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEFwaUtleSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiRnVuY3Rpb25OYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoiIn0seyJpZCI6IlRhcmdldFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiKiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlRhcmdldFRhYk51bWJlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiKiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
          RS("PROXIES", false, false)!
-         RESOURCE_694839 = _result().get()
+         RESOURCE_251531 = _result().get()
          RS("PROXY_TYPE", false, false)!
-         RESOURCE_257407 = _result().get()
+         RESOURCE_694967 = _result().get()
          RS("PROXY_LOGIN", false, false)!
-         RESOURCE_213068 = _result().get()
+         RESOURCE_134356 = _result().get()
          RS("PROXY_PASSWORD", false, false)!
-         RESOURCE_794162 = _result().get()
+         RESOURCE_476312 = _result().get()
          /*Browser*/
-         var hash = proxy_parse(RESOURCE_694839)
-         if(RESOURCE_257407 != "auto" ){
-         hash["IsHttp"] = RESOURCE_257407 == "http"
+         var hash = proxy_parse(RESOURCE_251531)
+         if(RESOURCE_694967 != "auto" ){
+         hash["IsHttp"] = RESOURCE_694967 == "http"
          }
-         var login = RESOURCE_213068
-         var password = RESOURCE_794162
+         var login = RESOURCE_134356
+         var password = RESOURCE_476312
          if(login.length > 0 && password.length > 0 )
          {
          hash["name"] = login
@@ -1016,7 +1016,7 @@ ToolboxHeight=363
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=507
+ScenarioWidth=512
 Zoom=100
 IsMaximized=false
 Restart=false
@@ -1111,6 +1111,23 @@ Detector=true
           </Model>
           <Defaults/>
           <Model>
+               <Name>BETWEEN_CLICKS</Name>
+               <Description en="Between clicks" ru="Интервал между кликами (сек)"/>
+               <SectionName en="Target website" ru="Целевой сайт"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>RandomInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>RandomInteger</AllowedTypes>
+               <MinUserValue>5</MinUserValue>
+               <MinDesignValue>5</MinDesignValue>
+               <MaxUserValue>10</MaxUserValue>
+               <MaxDesignValue>100</MaxDesignValue>
+          </Model>
+          <Defaults/>
+          <Model>
                <Name>INTERVAL</Name>
                <Description en="Interval between Script Loads in seconds" ru="Интервал между каждой загрузкой в секундах"/>
                <SectionName en="Target website" ru="Целевой сайт"/>
@@ -1141,30 +1158,6 @@ Detector=true
                <Value>1</Value>
                <MinValue>1</MinValue>
                <MaxValue>50</MaxValue>
-          </Model>
-          <Defaults/>
-          <Model>
-               <Name>PROXIES</Name>
-               <Description en="Proxy list" ru="Список прокси"/>
-               <SectionName en="Browser Setup" ru="Настройки браузера"/>
-               <VisibilityConditionValue></VisibilityConditionValue>
-               <VisibilityConditionVariable></VisibilityConditionVariable>
-               <Type>LinesFromFile</Type>
-               <IsAdvanced>0</IsAdvanced>
-               <Visible>1</Visible>
-               <Enabled>1</Enabled>
-               <AllowedTypes>LinesFromFile</AllowedTypes>
-               <Filename></Filename>
-               <Clean>0</Clean>
-               <Read>1</Read>
-               <Mix>1</Mix>
-               <MaxSuccess>100000</MaxSuccess>
-               <MaxFail>100000</MaxFail>
-               <MaxSimultaneous>1</MaxSimultaneous>
-               <Interval>5000</Interval>
-               <ReloadInterval>0</ReloadInterval>
-               <RenewInterval>-1</RenewInterval>
-               <Greedy>0</Greedy>
           </Model>
           <Defaults/>
           <Model>
@@ -1231,6 +1224,30 @@ Detector=true
           </Model>
           <Defaults/>
           <Model>
+               <Name>PROXIES</Name>
+               <Description en="Proxy list" ru="Список прокси"/>
+               <SectionName en="Browser Setup" ru="Настройки браузера"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>1</Mix>
+               <MaxSuccess>100000</MaxSuccess>
+               <MaxFail>100000</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
                <Name>PROXY_TYPE</Name>
                <Description en="Proxy type" ru="Тип прокси"/>
                <SectionName en="Browser Setup" ru="Настройки браузера"/>
@@ -1245,6 +1262,21 @@ Detector=true
 http</Values>
                <Selected>0</Selected>
                <SelectType>0</SelectType>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>PROXY_LOGIN</Name>
+               <Description en="Proxy login" ru="Логин Proxy"/>
+               <SectionName en="Browser Setup" ru="Настройки браузера"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
           </Model>
           <Defaults/>
           <Model>
@@ -1293,23 +1325,6 @@ http</Values>
                <ReloadInterval>0</ReloadInterval>
                <RenewInterval>-1</RenewInterval>
                <Greedy>0</Greedy>
-          </Model>
-          <Defaults/>
-          <Model>
-               <Name>BETWEEN_CLICKS</Name>
-               <Description en="Between clicks" ru="Интервал между кликами (сек)"/>
-               <SectionName en="Emulation" ru="Эмуляция"/>
-               <VisibilityConditionValue></VisibilityConditionValue>
-               <VisibilityConditionVariable></VisibilityConditionVariable>
-               <Type>RandomInteger</Type>
-               <IsAdvanced>0</IsAdvanced>
-               <Visible>1</Visible>
-               <Enabled>1</Enabled>
-               <AllowedTypes>RandomInteger</AllowedTypes>
-               <MinUserValue>5</MinUserValue>
-               <MinDesignValue>5</MinDesignValue>
-               <MaxUserValue>10</MaxUserValue>
-               <MaxDesignValue>100</MaxDesignValue>
           </Model>
           <Defaults/>
           <Model>
@@ -1384,6 +1399,21 @@ http</Values>
                <Value>1</Value>
                <MinValue>1</MinValue>
                <MaxValue>100</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>PROXY_PASSWORD</Name>
+               <Description en="Proxy password" ru="Пароль Proxy"/>
+               <SectionName en="Browser Setup" ru="Настройки браузера"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>0</NotEmpty>
           </Model>
           <Defaults/>
      </ModelList>
