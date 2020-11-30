@@ -803,11 +803,11 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=354
+ToolboxHeight=339
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=584
+ScenarioWidth=527
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -841,15 +841,15 @@ Detector=true
     &quot;Excel&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru=""/>
-     <OutputTitle2 en="Second Results" ru=""/>
-     <OutputTitle3 en="Third Results" ru=""/>
-     <OutputTitle4 en="Fourth Results" ru=""/>
-     <OutputTitle5 en="Fifth Results" ru=""/>
-     <OutputTitle6 en="Sixth Results" ru=""/>
-     <OutputTitle7 en="Seventh Results" ru=""/>
-     <OutputTitle8 en="Eighth Results" ru=""/>
-     <OutputTitle9 en="Ninth Results" ru=""/>
+     <OutputTitle1 ru="" en="First Results"/>
+     <OutputTitle2 ru="" en="Second Results"/>
+     <OutputTitle3 ru="" en="Third Results"/>
+     <OutputTitle4 ru="" en="Fourth Results"/>
+     <OutputTitle5 ru="" en="Fifth Results"/>
+     <OutputTitle6 ru="" en="Sixth Results"/>
+     <OutputTitle7 ru="" en="Seventh Results"/>
+     <OutputTitle8 ru="" en="Eighth Results"/>
+     <OutputTitle9 ru="" en="Ninth Results"/>
      <OutputVisible1>0</OutputVisible1>
      <OutputVisible2>0</OutputVisible2>
      <OutputVisible3>0</OutputVisible3>
@@ -862,8 +862,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>url</Name>
-               <Description en="Page Url" ru="Url страницы"/>
-               <SectionName en="General" ru="Общие"/>
+               <Description ru="Url страницы" en="Page Url"/>
+               <SectionName ru="Общие" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -877,8 +877,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>threads</Name>
-               <Description en="Thread Number" ru="Количество Потоков"/>
-               <SectionName en="General" ru="Общие"/>
+               <Description ru="Количество Потоков" en="Thread Number"/>
+               <SectionName ru="Общие" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -893,8 +893,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>sleep</Name>
-               <Description en="Sleep between every page load in seconds" ru="Интервал между каждой загрузкой в секундах."/>
-               <SectionName en="General" ru="Общие"/>
+               <Description ru="Интервал между каждой загрузкой в секундах." en="Sleep between every page load in seconds"/>
+               <SectionName ru="Общие" en="General"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>RandomInteger</Type>
@@ -910,8 +910,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>proxies</Name>
-               <Description en="Proxies. Select empty fixed string to not use proxy." ru="Прокси. Выберите пустую строку, чтобы не мспользовать прокси."/>
-               <SectionName en="Proxies" ru="Прокси"/>
+               <Description ru="Прокси. Выберите пустую строку, чтобы не мспользовать прокси." en="Proxies. Select empty fixed string to not use proxy."/>
+               <SectionName ru="Прокси" en="Proxies"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -934,8 +934,8 @@ Detector=true
           <Defaults>
                <Default>
                     <Name>proxies</Name>
-                    <Description en="Proxies. Select empty fixed string to not use proxy." ru="Прокси. Выберите пустую строку, чтобы не мспользовать прокси."/>
-                    <SectionName en="Proxies" ru="Прокси"/>
+                    <Description ru="Прокси. Выберите пустую строку, чтобы не мспользовать прокси." en="Proxies. Select empty fixed string to not use proxy."/>
+                    <SectionName ru="Прокси" en="Proxies"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -949,8 +949,8 @@ Detector=true
           </Defaults>
           <Model>
                <Name>proxy_type</Name>
-               <Description en="Proxy Type" ru="Тип прокси"/>
-               <SectionName en="Proxies" ru="Прокси"/>
+               <Description ru="Тип прокси" en="Proxy Type"/>
+               <SectionName ru="Прокси" en="Proxies"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -966,8 +966,8 @@ socks5</Values>
           <Defaults/>
           <Model>
                <Name>user_agent</Name>
-               <Description en="User Agent" ru="User Agent"/>
-               <SectionName en="Browser" ru="Браузер"/>
+               <Description ru="User Agent" en="User Agent"/>
+               <SectionName ru="Браузер" en="Browser"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -990,8 +990,8 @@ socks5</Values>
           <Defaults>
                <Default>
                     <Name>user_agent</Name>
-                    <Description en="User Agent" ru="User Agent"/>
-                    <SectionName en="Browser" ru="Браузер"/>
+                    <Description ru="User Agent" en="User Agent"/>
+                    <SectionName ru="Браузер" en="Browser"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>FixedString</Type>
@@ -1004,8 +1004,8 @@ socks5</Values>
                </Default>
                <Default>
                     <Name>user_agent</Name>
-                    <Description en="User Agent" ru="User Agent"/>
-                    <SectionName en="Browser" ru="Браузер"/>
+                    <Description ru="User Agent" en="User Agent"/>
+                    <SectionName ru="Браузер" en="Browser"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>RandomString</Type>
@@ -1018,8 +1018,8 @@ socks5</Values>
           </Defaults>
           <Model>
                <Name>accept_language</Name>
-               <Description en="Accept Language" ru="Accept Language"/>
-               <SectionName en="Browser" ru="Браузер"/>
+               <Description ru="Accept Language" en="Accept Language"/>
+               <SectionName ru="Браузер" en="Browser"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1033,8 +1033,8 @@ socks5</Values>
           <Defaults>
                <Default>
                     <Name>accept_language</Name>
-                    <Description en="Accept Language" ru="Accept Language"/>
-                    <SectionName en="Browser" ru="Браузер"/>
+                    <Description ru="Accept Language" en="Accept Language"/>
+                    <SectionName ru="Браузер" en="Browser"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>RandomString</Type>
@@ -1046,8 +1046,8 @@ socks5</Values>
                </Default>
                <Default>
                     <Name>accept_language</Name>
-                    <Description en="Accept Language" ru="Accept Language"/>
-                    <SectionName en="Browser" ru="Браузер"/>
+                    <Description ru="Accept Language" en="Accept Language"/>
+                    <SectionName ru="Браузер" en="Browser"/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>LinesFromFile</Type>
@@ -1070,8 +1070,8 @@ socks5</Values>
           </Defaults>
           <Model>
                <Name>clicks</Name>
-               <Description en="Number of clicks after page is loaded" ru="Количество кликов после загрузки страницы"/>
-               <SectionName en="After Load" ru="После Загрузки"/>
+               <Description ru="Количество кликов после загрузки страницы" en="Number of clicks after page is loaded"/>
+               <SectionName ru="После Загрузки" en="After Load"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>RandomInteger</Type>
@@ -1087,8 +1087,8 @@ socks5</Values>
           <Defaults/>
           <Model>
                <Name>between_clicks</Name>
-               <Description en="Time to sleep between each click in seconds" ru="Интервал между каждым кликом в секундах."/>
-               <SectionName en="After Load" ru="После Загрузки"/>
+               <Description ru="Интервал между каждым кликом в секундах." en="Time to sleep between each click in seconds"/>
+               <SectionName ru="После Загрузки" en="After Load"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>RandomInteger</Type>
@@ -1104,8 +1104,8 @@ socks5</Values>
           <Defaults/>
           <Model>
                <Name>proxy_login</Name>
-               <Description en="Proxy Login. Can be blank." ru="Прокси логин. Может быть пустым."/>
-               <SectionName en="Proxies" ru="Прокси"/>
+               <Description ru="Прокси логин. Может быть пустым." en="Proxy Login. Can be blank."/>
+               <SectionName ru="Прокси" en="Proxies"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1119,8 +1119,8 @@ socks5</Values>
           <Defaults/>
           <Model>
                <Name>proxy_password</Name>
-               <Description en="Proxy Password. Can be blank" ru="Прокси пароль. Может быть пустым."/>
-               <SectionName en="Proxies" ru="Прокси"/>
+               <Description ru="Прокси пароль. Может быть пустым." en="Proxy Password. Can be blank"/>
+               <SectionName ru="Прокси" en="Proxies"/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
