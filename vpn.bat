@@ -1,0 +1,1 @@
+tskill /A "OpenVPN"
