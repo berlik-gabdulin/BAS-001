@@ -13,10 +13,10 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
    {
    section_insert()
       section_start("", 541222247)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkdvaW5nIHRvIHRoZSB7e1JFRl9XRUJTSVRFfX0gYXQgZmlyc3QiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCY0LTRgyDQvdCwIHt7UkVGX1dFQlNJVEV9fSDQtNC70Y8g0L3QsNGH0LDQu9CwIiwiY2xhc3MiOiJzdHJpbmcifV19*/
       RS("REF_WEBSITE", false, false)!
-      RESOURCE_298693 = _result().get()
-      log("Going to the " + RESOURCE_298693 + " at first")
+      RESOURCE_722303 = _result().get()
+      log("Иду на " + RESOURCE_722303 + " для начала")
       section_end()!
 
       section_start("", 823079994)!
@@ -28,10 +28,12 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
       section_end()!
 
       section_start("", 762511618)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlN0YXJ0aW5nIGxvb3AgZnJvbSAwIHRvIHt7UkVGX1dFQlNJVEV9fSBjeWNsZXMiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCd0LDRh9C40L3QsNGOINGN0LzRg9C70Y/RhtC40Y4g0LbQuNC30L3QuCDQsiDRgdC10YLQuCDRgSDRgdCw0LnRgtCwIHt7UkVGX1dFQlNJVEV9fS4g0JfQsNC00LDQvdC+IHt7UkVGX1dFQlNJVEVfQ09VTlR9fSDRgdCw0LnRgtC+0LIuIiwiY2xhc3MiOiJzdHJpbmcifV19*/
       RS("REF_WEBSITE", false, false)!
-      RESOURCE_159831 = _result().get()
-      log("Starting loop from 0 to " + RESOURCE_159831 + " cycles")
+      RESOURCE_318327 = _result().get()
+      RS("REF_WEBSITE_COUNT", false, false)!
+      RESOURCE_898604 = _result().get()
+      log("Начинаю эмуляцию жизни в сети с сайта " + RESOURCE_318327 + ". Задано " + RESOURCE_898604 + " сайтов.")
       section_end()!
 
       section_start("", 382612900)!
@@ -43,8 +45,10 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
       if(VAR_CYCLE_INDEX > parseInt(RESOURCE_459275))_break();
       section_insert()
          section_start("", 401449566)!
-         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCi0LXQutGD0YnQtdC1INC/0L7QstGC0L7RgNC10L3QuNC1INGG0LjQutC70LAgOiBbW0NZQ0xFX0lOREVYXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-         log("Текущее повторение цикла : " + VAR_CYCLE_INDEX)
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCi0LXQutGD0YnQtdC1INC/0L7QstGC0L7RgNC10L3QuNC1INGG0LjQutC70LAgOiBbW0NZQ0xFX0lOREVYXV0g0LjQtyB7e1JFRl9XRUJTSVRFX0NPVU5UfX0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         RS("REF_WEBSITE_COUNT", false, false)!
+         RESOURCE_380102 = _result().get()
+         log("Текущее повторение цикла : " + VAR_CYCLE_INDEX + " из " + RESOURCE_380102)
          section_end()!
 
          section_start("", 175172634)!
@@ -61,8 +65,8 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          section_end()!
 
          section_start("", 320827155)!
-         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlN0YXJ0aW5nIHdhbGtpbmcgb24gW1tSRUZfV0VCU0lURV1dIHdlYnNpdGUiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-         log("Starting walking on " + VAR_REF_WEBSITE + " website")
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCd0LDRh9C40L3QsNGOINCx0YDQvtC00LjRgtGMINC/0L4g0YHQsNC50YLRgyBbW1JFRl9XRUJTSVRFXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         log("Начинаю бродить по сайту " + VAR_REF_WEBSITE)
          section_end()!
 
          section_start("\u007b\u0022n\u0022:\u0022Do clicks for \u007b\u007bclicks\u007d\u007d times.\u005cnThis action starts loop.\u0022\u007d", 52651196)!
@@ -127,8 +131,8 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          section_end()!
 
          section_start("", 339639547)!
-         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkdvaW5nIHRvIGFub3RoZXIgd2Vic2l0ZSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-         log("Going to another website")
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCY0LTRgyDQvdCwINC00YDRg9Cz0L7QuSDRgdCw0LnRgiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         log("Иду на другой сайт")
          section_end()!
 
          section_start("\u007b\u0022n\u0022:\u0022Checking if there is any link on page.\u0022\u007d", 209551908)!
@@ -302,6 +306,11 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
       RS("MY_POSTS", false, false)!
       RESOURCE_716006 = _result().get()
       VAR_MY_POSTS = RESOURCE_716006
+      section_end()!
+
+      section_start("", 656691679)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCc0LXQvdGP0Y4g0YHRgdGL0LvQutC4INC90LAgW1tNWV9QT1NUU11dIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      log("Меняю ссылки на " + VAR_MY_POSTS)
       section_end()!
 
       section_start("", 444971297)!
@@ -478,10 +487,10 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
       section_end()!
 
       section_start("", 159907307)!
-      /*Dat:eyJzIjoiRXhlY3V0ZVByb2Nlc3MiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29tbWFuZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHNraWxsIC9BIFwiT3BlblZQTlwiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiV29ya2luZ0ZvbGRlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiUFJPQ0VTU19TVEFOREFSVF9PVVRQVVQifSx7ImlkIjoiU2F2ZUVycm9yIiwidHlwZSI6InZhciIsImRhdGEiOiJQUk9DRVNTX0VSUk9SX09VVFBVVCJ9XX0=*/
+      /*Dat:eyJzIjoiRXhlY3V0ZVByb2Nlc3MiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29tbWFuZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHNraWxsIFZwbjFcblxudGltZW91dCAvdCAyXG5cbnRza2lsbCAvQSBcIk9wZW5WUE4xXCJcblxudGltZW91dCAvdCAyXG5cblwiQzpcXFByb2dyYW0gRmlsZXNcXEF2YXN0IFNvZnR3YXJlXFxTZWN1cmVMaW5lIFZQTlxcVnBuLmV4ZTFcIiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldvcmtpbmdGb2xkZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJQUk9DRVNTX1NUQU5EQVJUX09VVFBVVCJ9LHsiaWQiOiJTYXZlRXJyb3IiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlBST0NFU1NfRVJST1JfT1VUUFVUIn1dfQ==*/
       RANDOM_FILE = "temp_" + rand() + ".bat"
-      native("filesystem", "writefile", JSON.stringify({path: RANDOM_FILE,value: "chcp 65001\r\n" + (("".length>0) ? ("cd " + "" + "\r\n") : "" ) + (("tskill /A \u0022OpenVPN\u0022").replace(/\r?\n/g, "\r\n")),base64:false,append:false}))
-      native_async("processmanager", "start", JSON.stringify({location: RANDOM_FILE, working_folder: "", waitfinish: true, arguments: "", version: 2}))!
+      native("filesystem", "writefile", JSON.stringify({path: RANDOM_FILE,value: "chcp 65001\r\n" + (("".length>0) ? ("cd " + "" + "\r\n") : "" ) + (("tskill Vpn1\n\ntimeout /t 2\n\ntskill /A \u0022OpenVPN1\u0022\n\ntimeout /t 2\n\n\u0022C:\u005cProgram Files\u005cAvast Software\u005cSecureLine VPN\u005cVpn.exe1\u0022").replace(/\r?\n/g, "\r\n")),base64:false,append:false}))
+      native_async("processmanager", "start", JSON.stringify({location: RANDOM_FILE, working_folder: "", waitfinish: false, arguments: "", version: 2}))!
       try
       {
       var split = _result().split(",")
@@ -507,155 +516,64 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
    function Do_Clicks()
    {
    section_insert()
-      section_start("", 505074594)!
-      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCd0LDRh9C40L3QsNGOINCx0YDQvtC00LjRgtGMINC/0L4g0YHQsNC50YLRgyDRgdC+INGB0YLRgNCw0L3QuNGG0YsgW1tNWV9QT1NUU11dIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-      log("Начинаю бродить по сайту со страницы " + VAR_MY_POSTS)
+      section_start("", 722868846)!
+      /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik1pblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiTWF4VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJHT19PUl9OT1QifV19*/
+      VAR_GO_OR_NOT = Math.floor(Math.random() * (parseInt(1) - parseInt(0) + 1)) + parseInt(0)
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022Do clicks for \u007b\u007bclicks\u007d\u007d times.\u005cnThis action starts loop.\u0022\u007d", 3512362)!
-      /*Dat:eyJzIjoiZm9yIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZvckZyb20iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiRm9yVG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7Q0xJQ0tTfX0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-      RS("CLICKS", false, false)!
-      RESOURCE_876744 = _result().get()
-      _do(function(){
-      VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(1)
-      if(VAR_CYCLE_INDEX > parseInt(RESOURCE_876744))_break();
+      section_start("", 225496213)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjI2MDc5NTcxMCwibWFzdGVyIjozMTYyMjQ2NzEsImlmX3ZhciI6Il9jeWNsZV9wYXJhbXMoKS5pZl9lbHNlIiwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHT19PUl9OT1RdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+      _cycle_params().if_else = VAR_GO_OR_NOT;
+      _if(_cycle_params().if_else,function(){
       section_insert()
-         section_start("\u007b\u0022n\u0022:\u0022Checking if there is any link on page.\u0022\u007d", 497340263)!
-         /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IklTX0VYSVNUUyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gYSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkiLCJjc3MyIjoiIiwiY3NzMyI6IiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48Ym9keT48L2JvZHk+IiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFsxXS9ib2R5WzFdIiwiYXQiOiIxODUsIDgzIiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
-         /*Browser*/
-         get_element_selector(" \u003eCSS\u003e a", false).nowait().exist()!
-         VAR_IS_EXISTS = _result() == 1
+         section_start("", 89139884)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCd0LDRh9C40L3QsNGOINCx0YDQvtC00LjRgtGMINC/0L4g0YHQsNC50YLRgyDRgdC+INGB0YLRgNCw0L3QuNGG0YsgW1tNWV9QT1NUU11dIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         log("Начинаю бродить по сайту со страницы " + VAR_MY_POSTS)
          section_end()!
 
-         section_start("", 932704046)!
-         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIVtbSVNfRVhJU1RTXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-         _if(!VAR_IS_EXISTS,function(){
+         section_start("\u007b\u0022n\u0022:\u0022Do clicks for \u007b\u007bclicks\u007d\u007d times.\u005cnThis action starts loop.\u0022\u007d", 676991383)!
+         /*Dat:eyJzIjoiZm9yIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZvckZyb20iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiRm9yVG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7Q0xJQ0tTfX0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+         RS("CLICKS", false, false)!
+         RESOURCE_876744 = _result().get()
+         _do(function(){
+         VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(1)
+         if(VAR_CYCLE_INDEX > parseInt(RESOURCE_876744))_break();
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022Break loop if there is no links\u0022\u007d", 312026434)!
-            /*Dat:eyJzIjoiYnJlYWsiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-            _break("function")
+            section_start("\u007b\u0022n\u0022:\u0022Checking if there is any link on page.\u0022\u007d", 170217121)!
+            /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IklTX0VYSVNUUyJ9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gYSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkiLCJjc3MyIjoiIiwiY3NzMyI6IiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48Ym9keT48L2JvZHk+IiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFsxXS9ib2R5WzFdIiwiYXQiOiIxODUsIDgzIiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+            /*Browser*/
+            get_element_selector(" \u003eCSS\u003e a", false).nowait().exist()!
+            VAR_IS_EXISTS = _result() == 1
             section_end()!
 
-         })!
-         section_end()!
+            section_start("", 850241720)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIVtbSVNfRVhJU1RTXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+            _if(!VAR_IS_EXISTS,function(){
+            section_insert()
+               section_start("\u007b\u0022n\u0022:\u0022Break loop if there is no links\u0022\u007d", 169218009)!
+               /*Dat:eyJzIjoiYnJlYWsiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRXhwcmVzc2lvblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+               _break("function")
+               section_end()!
 
-         section_start("\u007b\u0022n\u0022:\u0022Get total link count\u0022\u007d", 628191151)!
-         /*Dat:eyJzIjoibGVuZ3RoIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6IkV4cHJlc3Npb25WYWx1ZUNvbmZpcm0iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJMSU5LX0NPVU5UIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGEiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiBib2R5IiwiY3NzMiI6IiIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGJvZHk+PC9ib2R5PiIsInhwYXRoIjoiID5YUEFUSD4gL2h0bWxbMV0vYm9keVsxXSIsImF0IjoiMjYyLCAyOTAifX0=*/
-         /*Browser*/
-         get_element_selector(" \u003eCSS\u003e a", true).length()!
-         VAR_LINK_COUNT = _result()
-         section_end()!
-
-         section_start("\u007b\u0022n\u0022:\u0022Get random link index\u0022\u007d", 101750339)!
-         /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6IkV4cHJlc3Npb25WYWx1ZUNvbmZpcm0iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJNaW5WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6Ik1heFZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0xJTktfQ09VTlRdXSAtIDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTElOS19JTkRFWCJ9XX0=*/
-         VAR_LINK_INDEX = Math.floor(Math.random() * (VAR_LINK_COUNT - 1 - 0 + 1)) + 0
-         section_end()!
-
-         section_start("\u007b\u0022n\u0022:\u0022Click on link.\u005cnDon\u0027t stop thread if element is not visible.\u005cnDon\u0027t wait for element.\u0022\u007d", 428111720)!
-         /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGEgPkFUPiBbW0xJTktfSU5ERVhdXSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkiLCJjc3MyIjoiIiwiY3NzMyI6IiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48Ym9keT48L2JvZHk+IiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFsxXS9ib2R5WzFdIiwiYXQiOiIyNzUsIDM0NCIsIndlIjpmYWxzZSwiZmEiOmZhbHNlfX0=*/
-         /*Browser*/
-         _SELECTOR = " \u003eCSS\u003e a \u003eAT\u003e " + VAR_LINK_INDEX;waiter_timeout_next(1000)
-         waiter_nofail_next();
-         wait_element_visible(_SELECTOR)!
-         _call(_random_point, {})!
-         _if(_result().length > 0, function(){
-         move( {} )!
-         get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
-         _call(_clarify, {} )!
-         mouse(X,Y)!
-         })!
-         section_end()!
-
-         section_start("", 910247850)!
-         /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik1pblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiTWF4VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiUkFORE9NX05VTUJFUiJ9XX0=*/
-         VAR_RANDOM_NUMBER = Math.floor(Math.random() * (parseInt(10) - parseInt(0) + 1)) + parseInt(0)
-         section_end()!
-
-         section_start("", 199739029)!
-         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1JBTkRPTV9OVU1CRVJdXSA9PT0gMiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-         _if(VAR_RANDOM_NUMBER === 2,function(){
-         section_insert()
-            section_start("", 213427136)!
-            /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-            /*Browser*/
-            IDDLE_EMULATION_END = Date.now() + 1000 * (20)
-            IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
-            IDDLE_CURSOR_POSITION_X = -1
-            IDDLE_CURSOR_POSITION_Y = -1
-            IDDLE_CURSOR_POSITION_WAS_SCROLL = false
-            page().script("window.innerWidth")!
-            IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
-            page().script("window.innerHeight")!
-            IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
-            _do(function(){
-            if(Date.now() >= IDDLE_EMULATION_END)
-            _break()
-            IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
-            if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
-            IDDLE_EMULATION_CURRENT_ITEM = 2
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
-            //scroll
-            IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
-            if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
-            IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
-            IDDLE_CURSOR_POSITION_WAS_SCROLL = true
-            IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
-            _do(function(){
-            if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
-            _break()
-            _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
-            sleep(rand(300,1000))!
-            })!
-            })!
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
-            //long move
-            page().script("document.documentElement.scrollLeft")!
-            IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
-            page().script("document.documentElement.scrollTop")!
-            IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
-            IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
-            IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
-            move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
-            })!
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
-            //short move
-            if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
-            _break()
-            page().script("document.documentElement.scrollLeft")!
-            IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
-            page().script("document.documentElement.scrollTop")!
-            IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
-            IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
-            _do(function(){
-            if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
-            _break()
-            IDDLE_CURSOR_POSITION_X += rand(-50,50)
-            IDDLE_CURSOR_POSITION_Y += rand(-50,50)
-            if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
-            IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
-            if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
-            IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
-            if(IDDLE_CURSOR_POSITION_X < 0)
-            IDDLE_CURSOR_POSITION_X = 0
-            if(IDDLE_CURSOR_POSITION_Y < 0)
-            IDDLE_CURSOR_POSITION_Y = 0
-            move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
-            _if(rand(1,10) > 3,function(){
-            sleep(rand(10,300))!
-            })!
-            })!
-            })!
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
-            //sleep
-            sleep(rand(500,5000))!
-            })!
             })!
             section_end()!
 
-            section_start("\u007b\u0022n\u0022:\u0022Click on link.\u005cnDon\u0027t stop thread if element is not visible.\u005cnDon\u0027t wait for element.\u0022\u007d", 963440773)!
-            /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGlmcmFtZSA+QVQ+IFtbTElOS19JTkRFWF1dIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gYm9keSIsImNzczIiOiIiLCJjc3MzIjoiIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxib2R5PjwvYm9keT4iLCJ4cGF0aCI6IiA+WFBBVEg+IC9odG1sWzFdL2JvZHlbMV0iLCJhdCI6IjI3NSwgMzQ0Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+            section_start("\u007b\u0022n\u0022:\u0022Get total link count\u0022\u007d", 665738657)!
+            /*Dat:eyJzIjoibGVuZ3RoIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6IkV4cHJlc3Npb25WYWx1ZUNvbmZpcm0iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJMSU5LX0NPVU5UIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGEiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiBib2R5IiwiY3NzMiI6IiIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGJvZHk+PC9ib2R5PiIsInhwYXRoIjoiID5YUEFUSD4gL2h0bWxbMV0vYm9keVsxXSIsImF0IjoiMjYyLCAyOTAifX0=*/
             /*Browser*/
-            _SELECTOR = " \u003eCSS\u003e iframe \u003eAT\u003e " + VAR_LINK_INDEX;waiter_timeout_next(1000)
+            get_element_selector(" \u003eCSS\u003e a", true).length()!
+            VAR_LINK_COUNT = _result()
+            section_end()!
+
+            section_start("\u007b\u0022n\u0022:\u0022Get random link index\u0022\u007d", 299443529)!
+            /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6IkV4cHJlc3Npb25WYWx1ZUNvbmZpcm0iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJNaW5WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoiaW50In0seyJpZCI6Ik1heFZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0xJTktfQ09VTlRdXSAtIDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiTElOS19JTkRFWCJ9XX0=*/
+            VAR_LINK_INDEX = Math.floor(Math.random() * (VAR_LINK_COUNT - 1 - 0 + 1)) + 0
+            section_end()!
+
+            section_start("\u007b\u0022n\u0022:\u0022Click on link.\u005cnDon\u0027t stop thread if element is not visible.\u005cnDon\u0027t wait for element.\u0022\u007d", 984348193)!
+            /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGEgPkFUPiBbW0xJTktfSU5ERVhdXSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkiLCJjc3MyIjoiIiwiY3NzMyI6IiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48Ym9keT48L2JvZHk+IiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFsxXS9ib2R5WzFdIiwiYXQiOiIyNzUsIDM0NCIsIndlIjpmYWxzZSwiZmEiOmZhbHNlfX0=*/
+            /*Browser*/
+            _SELECTOR = " \u003eCSS\u003e a \u003eAT\u003e " + VAR_LINK_INDEX;waiter_timeout_next(1000)
             waiter_nofail_next();
             wait_element_visible(_SELECTOR)!
             _call(_random_point, {})!
@@ -667,109 +585,226 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
             })!
             section_end()!
 
-            section_start("", 495169302)!
-            /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-            /*Browser*/
-            IDDLE_EMULATION_END = Date.now() + 1000 * (30)
-            IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
-            IDDLE_CURSOR_POSITION_X = -1
-            IDDLE_CURSOR_POSITION_Y = -1
-            IDDLE_CURSOR_POSITION_WAS_SCROLL = false
-            page().script("window.innerWidth")!
-            IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
-            page().script("window.innerHeight")!
-            IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
-            _do(function(){
-            if(Date.now() >= IDDLE_EMULATION_END)
-            _break()
-            IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
-            if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
-            IDDLE_EMULATION_CURRENT_ITEM = 2
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
-            //scroll
-            IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
-            if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
-            IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
-            IDDLE_CURSOR_POSITION_WAS_SCROLL = true
-            IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
-            _do(function(){
-            if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
-            _break()
-            _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
-            sleep(rand(300,1000))!
-            })!
-            })!
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
-            //long move
-            page().script("document.documentElement.scrollLeft")!
-            IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
-            page().script("document.documentElement.scrollTop")!
-            IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
-            IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
-            IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
-            move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
-            })!
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
-            //short move
-            if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
-            _break()
-            page().script("document.documentElement.scrollLeft")!
-            IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
-            page().script("document.documentElement.scrollTop")!
-            IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
-            IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
-            _do(function(){
-            if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
-            _break()
-            IDDLE_CURSOR_POSITION_X += rand(-50,50)
-            IDDLE_CURSOR_POSITION_Y += rand(-50,50)
-            if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
-            IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
-            if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
-            IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
-            if(IDDLE_CURSOR_POSITION_X < 0)
-            IDDLE_CURSOR_POSITION_X = 0
-            if(IDDLE_CURSOR_POSITION_Y < 0)
-            IDDLE_CURSOR_POSITION_Y = 0
-            move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
-            _if(rand(1,10) > 3,function(){
-            sleep(rand(10,300))!
-            })!
-            })!
-            })!
-            _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
-            //sleep
-            sleep(rand(500,5000))!
-            })!
+            section_start("", 996794496)!
+            /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik1pblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiTWF4VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiUkFORE9NX05VTUJFUiJ9XX0=*/
+            VAR_RANDOM_NUMBER = Math.floor(Math.random() * (parseInt(10) - parseInt(0) + 1)) + parseInt(0)
+            section_end()!
+
+            section_start("", 269974692)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1JBTkRPTV9OVU1CRVJdXSA9PT0gMiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+            _if(VAR_RANDOM_NUMBER === 2,function(){
+            section_insert()
+               section_start("", 987577234)!
+               /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+               /*Browser*/
+               IDDLE_EMULATION_END = Date.now() + 1000 * (20)
+               IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
+               IDDLE_CURSOR_POSITION_X = -1
+               IDDLE_CURSOR_POSITION_Y = -1
+               IDDLE_CURSOR_POSITION_WAS_SCROLL = false
+               page().script("window.innerWidth")!
+               IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
+               page().script("window.innerHeight")!
+               IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
+               _do(function(){
+               if(Date.now() >= IDDLE_EMULATION_END)
+               _break()
+               IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
+               if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
+               IDDLE_EMULATION_CURRENT_ITEM = 2
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
+               //scroll
+               IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
+               if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
+               IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
+               IDDLE_CURSOR_POSITION_WAS_SCROLL = true
+               IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
+               _do(function(){
+               if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+               _break()
+               _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
+               sleep(rand(300,1000))!
+               })!
+               })!
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
+               //long move
+               page().script("document.documentElement.scrollLeft")!
+               IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+               page().script("document.documentElement.scrollTop")!
+               IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+               IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
+               IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
+               move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+               })!
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
+               //short move
+               if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
+               _break()
+               page().script("document.documentElement.scrollLeft")!
+               IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+               page().script("document.documentElement.scrollTop")!
+               IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+               IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
+               _do(function(){
+               if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+               _break()
+               IDDLE_CURSOR_POSITION_X += rand(-50,50)
+               IDDLE_CURSOR_POSITION_Y += rand(-50,50)
+               if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
+               IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
+               if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
+               IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
+               if(IDDLE_CURSOR_POSITION_X < 0)
+               IDDLE_CURSOR_POSITION_X = 0
+               if(IDDLE_CURSOR_POSITION_Y < 0)
+               IDDLE_CURSOR_POSITION_Y = 0
+               move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+               _if(rand(1,10) > 3,function(){
+               sleep(rand(10,300))!
+               })!
+               })!
+               })!
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
+               //sleep
+               sleep(rand(500,5000))!
+               })!
+               })!
+               section_end()!
+
+               section_start("\u007b\u0022n\u0022:\u0022Click on link.\u005cnDon\u0027t stop thread if element is not visible.\u005cnDon\u0027t wait for element.\u0022\u007d", 44147431)!
+               /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGlmcmFtZSA+QVQ+IFtbTElOS19JTkRFWF1dIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gYm9keSIsImNzczIiOiIiLCJjc3MzIjoiIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxib2R5PjwvYm9keT4iLCJ4cGF0aCI6IiA+WFBBVEg+IC9odG1sWzFdL2JvZHlbMV0iLCJhdCI6IjI3NSwgMzQ0Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+               /*Browser*/
+               _SELECTOR = " \u003eCSS\u003e iframe \u003eAT\u003e " + VAR_LINK_INDEX;waiter_timeout_next(1000)
+               waiter_nofail_next();
+               wait_element_visible(_SELECTOR)!
+               _call(_random_point, {})!
+               _if(_result().length > 0, function(){
+               move( {} )!
+               get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
+               _call(_clarify, {} )!
+               mouse(X,Y)!
+               })!
+               section_end()!
+
+               section_start("", 667288141)!
+               /*Dat:eyJzIjoiSWRsZUVtdWxhdGlvbiIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZGRsZVRpbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRGlzdHJpYnV0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbMSwxLDIsMywzLDMsNCw0XSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+               /*Browser*/
+               IDDLE_EMULATION_END = Date.now() + 1000 * (30)
+               IDDLE_EMULATION_DISTRIBUTION = [1,1,2,3,3,3,4,4]
+               IDDLE_CURSOR_POSITION_X = -1
+               IDDLE_CURSOR_POSITION_Y = -1
+               IDDLE_CURSOR_POSITION_WAS_SCROLL = false
+               page().script("window.innerWidth")!
+               IDDLE_CURSOR_POSITION_WIDTH = parseInt(_result())
+               page().script("window.innerHeight")!
+               IDDLE_CURSOR_POSITION_HEIGHT = parseInt(_result())
+               _do(function(){
+               if(Date.now() >= IDDLE_EMULATION_END)
+               _break()
+               IDDLE_EMULATION_CURRENT_ITEM = IDDLE_EMULATION_DISTRIBUTION[Math.floor(Math.random()*IDDLE_EMULATION_DISTRIBUTION.length)]
+               if(_iterator() == 1 && IDDLE_EMULATION_DISTRIBUTION.indexOf(2)>=0)
+               IDDLE_EMULATION_CURRENT_ITEM = 2
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 1, function(){
+               //scroll
+               IDDLE_EMULATION_CURRENT_DIRECTION = (rand(1,2) == 2) ? "<MOUSESCROLLUP>" : "<MOUSESCROLLDOWN>"
+               if(!IDDLE_CURSOR_POSITION_WAS_SCROLL)
+               IDDLE_EMULATION_CURRENT_DIRECTION = "<MOUSESCROLLDOWN>"
+               IDDLE_CURSOR_POSITION_WAS_SCROLL = true
+               IDDLE_EMULATION_CURRENT_NUMBER = rand(1,5)
+               _do(function(){
+               if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+               _break()
+               _type(IDDLE_EMULATION_CURRENT_DIRECTION,1000)!
+               sleep(rand(300,1000))!
+               })!
+               })!
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 2, function(){
+               //long move
+               page().script("document.documentElement.scrollLeft")!
+               IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+               page().script("document.documentElement.scrollTop")!
+               IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+               IDDLE_CURSOR_POSITION_X = rand(1,IDDLE_CURSOR_POSITION_WIDTH)
+               IDDLE_CURSOR_POSITION_Y = rand(1,IDDLE_CURSOR_POSITION_HEIGHT)
+               move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+               })!
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 3, function(){
+               //short move
+               if(IDDLE_CURSOR_POSITION_X < 0 || IDDLE_CURSOR_POSITION_Y < 0)
+               _break()
+               page().script("document.documentElement.scrollLeft")!
+               IDDLE_CURSOR_POSITION_SCROLL_X = parseInt(_result())
+               page().script("document.documentElement.scrollTop")!
+               IDDLE_CURSOR_POSITION_SCROLL_Y = parseInt(_result())
+               IDDLE_EMULATION_CURRENT_NUMBER = rand(1,4)
+               _do(function(){
+               if(_iterator() >= IDDLE_EMULATION_CURRENT_NUMBER)
+               _break()
+               IDDLE_CURSOR_POSITION_X += rand(-50,50)
+               IDDLE_CURSOR_POSITION_Y += rand(-50,50)
+               if(IDDLE_CURSOR_POSITION_X > IDDLE_CURSOR_POSITION_WIDTH)
+               IDDLE_CURSOR_POSITION_X = IDDLE_CURSOR_POSITION_WIDTH
+               if(IDDLE_CURSOR_POSITION_Y > IDDLE_CURSOR_POSITION_HEIGHT)
+               IDDLE_CURSOR_POSITION_Y = IDDLE_CURSOR_POSITION_HEIGHT
+               if(IDDLE_CURSOR_POSITION_X < 0)
+               IDDLE_CURSOR_POSITION_X = 0
+               if(IDDLE_CURSOR_POSITION_Y < 0)
+               IDDLE_CURSOR_POSITION_Y = 0
+               move(IDDLE_CURSOR_POSITION_SCROLL_X + IDDLE_CURSOR_POSITION_X,IDDLE_CURSOR_POSITION_SCROLL_Y + IDDLE_CURSOR_POSITION_Y)!
+               _if(rand(1,10) > 3,function(){
+               sleep(rand(10,300))!
+               })!
+               })!
+               })!
+               _if(IDDLE_EMULATION_CURRENT_ITEM == 4, function(){
+               //sleep
+               sleep(rand(500,5000))!
+               })!
+               })!
+               section_end()!
+
+               section_start("\u007b\u0022n\u0022:\u0022Click on link.\u005cnDon\u0027t stop thread if element is not visible.\u005cnDon\u0027t wait for element.\u0022\u007d", 643766798)!
+               /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGlmcmFtZSA+QVQ+IFtbTElOS19JTkRFWF1dID5GUkFNRT4gPkNTUz4gYSA+QVQ+MCIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkiLCJjc3MyIjoiIiwiY3NzMyI6IiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48Ym9keT48L2JvZHk+IiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFsxXS9ib2R5WzFdIiwiYXQiOiIyNzUsIDM0NCIsIndlIjpmYWxzZSwiZmEiOmZhbHNlfX0=*/
+               /*Browser*/
+               _SELECTOR = " \u003eCSS\u003e iframe \u003eAT\u003e " + VAR_LINK_INDEX + " \u003eFRAME\u003e \u003eCSS\u003e a \u003eAT\u003e0";waiter_timeout_next(1000)
+               waiter_nofail_next();
+               wait_element_visible(_SELECTOR)!
+               _call(_random_point, {})!
+               _if(_result().length > 0, function(){
+               move( {} )!
+               get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
+               _call(_clarify, {} )!
+               mouse(X,Y)!
+               })!
+               section_end()!
+
             })!
             section_end()!
 
-            section_start("\u007b\u0022n\u0022:\u0022Click on link.\u005cnDon\u0027t stop thread if element is not visible.\u005cnDon\u0027t wait for element.\u0022\u007d", 747730067)!
-            /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTZWxlY3QiLCJ0eXBlIjoic2VsZWN0IiwiZGF0YSI6ImxlZnQifSx7ImlkIjoiU3BlZWQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJHcmF2aXR5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI2IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkRldmlhdGlvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMi41IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGlmcmFtZSA+QVQ+IFtbTElOS19JTkRFWF1dID5GUkFNRT4gPkNTUz4gYSA+QVQ+MCIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGJvZHkiLCJjc3MyIjoiIiwiY3NzMyI6IiIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48Ym9keT48L2JvZHk+IiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFsxXS9ib2R5WzFdIiwiYXQiOiIyNzUsIDM0NCIsIndlIjpmYWxzZSwiZmEiOmZhbHNlfX0=*/
-            /*Browser*/
-            _SELECTOR = " \u003eCSS\u003e iframe \u003eAT\u003e " + VAR_LINK_INDEX + " \u003eFRAME\u003e \u003eCSS\u003e a \u003eAT\u003e0";waiter_timeout_next(1000)
-            waiter_nofail_next();
-            wait_element_visible(_SELECTOR)!
-            _call(_random_point, {})!
-            _if(_result().length > 0, function(){
-            move( {} )!
-            get_element_selector(_SELECTOR, false).nowait().clarify(X,Y)!
-            _call(_clarify, {} )!
-            mouse(X,Y)!
-            })!
+            section_start("", 732537142)!
+            /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0JFVFdFRU5fQ0xJQ0tTfX0qMTAwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+            RS("BETWEEN_CLICKS", false, false)!
+            RESOURCE_506200 = _result().get()
+            sleep(RESOURCE_506200*1000)!
             section_end()!
 
          })!
-         section_end()!
-
-         section_start("", 171693397)!
-         /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0JFVFdFRU5fQ0xJQ0tTfX0qMTAwMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-         RS("BETWEEN_CLICKS", false, false)!
-         RESOURCE_506200 = _result().get()
-         sleep(RESOURCE_506200*1000)!
          section_end()!
 
       })!
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 260795710)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6MjYwNzk1NzEwLCJtYXN0ZXIiOjIyNTQ5NjIxMywiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0dPX09SX05PVF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+      _if(!_cycle_params().if_else,function(){
+      section_insert()
+         section_start("", 720190810)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCt0LzRg9C70LjRgNGD0Y4g0L/QvtC60LDQt9Cw0YLQtdC70Ywg0L7RgtC60LDQt9C+0LIiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         log("Эмулирую показатель отказов")
+         section_end()!
+
+      })!
+      delete _cycle_params().if_else;
       section_end()!
 
       section_start("", 691343815)!
@@ -878,6 +913,11 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
    function Search_Engine()
    {
    section_insert()
+      section_start("", 807176372)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCY0LTRgyDQsiDQv9C+0LjRgdC60L7QstGD0Y4g0YHQuNGB0YLQtdC80YMiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      log("Иду в поисковую систему")
+      section_end()!
+
       section_start("", 119761597)!
       /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJFTkdJTkVfSlNPTiJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJKU09OLnBhcnNlKHt7RU5HSU5FU19KU09OfX0pIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
       RS("ENGINES_JSON", false, false)!
@@ -1615,6 +1655,11 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
    _result_function()
    section_end()!
 
+   section_start("", 741634156)!
+   /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjMwMDAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+   sleep(rand(10000,300000))!
+   section_end()!
+
 })!]]></Script>
      <ModuleInfo><![CDATA[{
 }
@@ -1647,14 +1692,14 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=363
+ToolboxHeight=533
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=512
+ScenarioWidth=500
 Zoom=100
 IsMaximized=false
-Restart=false
+Restart=true
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false

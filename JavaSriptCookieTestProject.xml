@@ -3,9 +3,67 @@
      <Script><![CDATA[RS("THREADS", false, false)!
 RESOURCE_1 = _result().get()
 
-section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
+section(RESOURCE_1 /*{{THREADS}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,function(){
    section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
 
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022MULTI_THREAD\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 366979109)!
+   function MULTI_THREAD()
+   {
+   section_insert()
+      section_start("", 791824605)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNldHVwX0Jyb3dzZXIifV19*/
+      _call_function(Setup_Browser,{})!
+      _result_function()
+      section_end()!
+
+      section_start("", 541234624)!
+      /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik1pblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiTWF4VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJSQU5ET01fTlVNQkVSIn1dfQ==*/
+      VAR_RANDOM_NUMBER = Math.floor(Math.random() * (parseInt(1) - parseInt(0) + 1)) + parseInt(0)
+      section_end()!
+
+      section_start("", 149233712)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjYxMzI3Mjk1NiwibWFzdGVyIjoxNDkyMzM3MTIsImlmX3ZhciI6Il9jeWNsZV9wYXJhbXMoKS5pZl9lbHNlIiwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tSQU5ET01fTlVNQkVSXV0gPT09IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+      _cycle_params().if_else = VAR_RANDOM_NUMBER === 0;
+      _if(_cycle_params().if_else,function(){
+      section_insert()
+         section_start("", 628990574)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNlYXJjaF9FbmdpbmUifV19*/
+         _call_function(Search_Engine,{})!
+         _result_function()
+         section_end()!
+
+      })!
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 613272956)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6NjEzMjcyOTU2LCJtYXN0ZXIiOjE0OTIzMzcxMiwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1JBTkRPTV9OVU1CRVJdXSA9PT0gMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+      _if(!_cycle_params().if_else,function(){
+      section_insert()
+         section_start("", 556187161)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlJlZmVyZXJfV2Vic2l0ZSJ9XX0=*/
+         _call_function(Referer_Website,{})!
+         _result_function()
+         section_end()!
+
+      })!
+      delete _cycle_params().if_else;
+      section_end()!
+
+      section_start("", 687245130)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNjcm9sbF9FbXVsYXRpb24ifV19*/
+      _call_function(Scroll_Emulation,{})!
+      _result_function()
+      section_end()!
+
+      section_start("", 566823250)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IkRvX0NsaWNrcyJ9XX0=*/
+      _call_function(Do_Clicks,{})!
+      _result_function()
+      section_end()!
+
+   }
    section_end()!
 
    section_start("\u007b\u0022n\u0022:\u0022Referer_Website\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 732679343)!
@@ -438,13 +496,18 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          section_end()!
 
          section_start("", 408984507)!
-         /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiQzpcXFVzZXJzXFxVc2VyXFxEb2N1bWVudHNcXEJBUyBndWVzdCBnZW5lcmF0b3JcXFByb2ZpbGVzLnR4dCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1VTRVJfTkFNRV1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2szIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-         native("filesystem", "writefile", JSON.stringify({path: "C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles.txt",value: (VAR_USER_NAME).toString(),base64:false,append:false}))
+         /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiRDpcXERvY3VtZW50c1xcQkFTLTAwMVxcUHJvZmlsZXMudHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbVVNFUl9OQU1FXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjazMiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjazIiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+         native("filesystem", "writefile", JSON.stringify({path: "D:\u005cDocuments\u005cBAS-001\u005cProfiles.txt",value: (VAR_USER_NAME).toString(),base64:false,append:false}))
          section_end()!
 
          section_start("", 758569381)!
          /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkV4cHJlc3Npb25WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJFeHByZXNzaW9uVmFsdWVDb25maXJtIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiTG9nVGV4dCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoi0J/RgNC+0YTQuNC70YwgW1tVU0VSX05BTUVdXSDQt9Cw0L3QtdGB0LXQvSDQsiDRgdC/0LjRgdC+0LoiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
          log("Профиль " + VAR_USER_NAME + " занесен в список")
+         section_end()!
+
+         section_start("", 881605831)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJNT0JJTEVfT1JfTk9UIn0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwianNvbiI6Ilt7XCJuYW1lXCI6XCJyZXN1bHRcIixcImlkXCI6XCIwXCIsXCJ4XCI6MjIwMCxcInlcIjoyMDAwfSx7XCJuYW1lXCI6XCJyYW5kb20gbnVtYmVyXCIsXCJpZFwiOlwiMVwiLFwieFwiOjIwMDgsXCJ5XCI6MTY5N30se1wibmFtZVwiOlwidmFsdWVcIixcImRhdGFcIjpcIjFcIixcImRhdGFvcmlnaW5hbFwiOlwiMVwiLFwiZGF0YXR5cGVcIjpcImludFwiLFwiaWRcIjpcIjJcIixcInhcIjoxNTE5LjExMTExMTExMTExMSxcInlcIjoxNjUyLjMzMzMzMzMzMzMzMzV9LHtcInR5cGVcIjpcImxpbmtcIixcInNvdXJjZVwiOntcImlkXCI6XCIyXCIsXCJwb3J0XCI6XCItXCJ9LFwidGFyZ2V0XCI6e1wiaWRcIjpcIjFcIixcInBvcnRcIjpcIm1heFwifX0se1wibmFtZVwiOlwidmFsdWVcIixcImRhdGFcIjpcIjEwXCIsXCJkYXRhb3JpZ2luYWxcIjpcIjEwXCIsXCJkYXRhdHlwZVwiOlwiaW50XCIsXCJpZFwiOlwiM1wiLFwieFwiOjE1NjUsXCJ5XCI6MTgwMn0se1widHlwZVwiOlwibGlua1wiLFwic291cmNlXCI6e1wiaWRcIjpcIjNcIixcInBvcnRcIjpcIi1cIn0sXCJ0YXJnZXRcIjp7XCJpZFwiOlwiMVwiLFwicG9ydFwiOlwibWluXCJ9fSx7XCJ0eXBlXCI6XCJsaW5rXCIsXCJzb3VyY2VcIjp7XCJpZFwiOlwiMVwiLFwicG9ydFwiOlwiLVwifSxcInRhcmdldFwiOntcImlkXCI6XCIwXCIsXCJwb3J0XCI6XCItXCJ9fV0iLCJkYXRhIjoiTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogKDEgLSAzICsgMSkpICsgMyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         VAR_MOBILE_OR_NOT = Math.floor(Math.random() * (1 - 3 + 1)) + 3
          section_end()!
 
          section_start("", 336141627)!
@@ -579,19 +642,19 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          section_end()!
 
          section_start("", 534035177)!
-         /*Dat:eyJzIjoiVXNlUHJvZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJDOlxcVXNlcnNcXFVzZXJcXERvY3VtZW50c1xcQkFTIGd1ZXN0IGdlbmVyYXRvclxcUHJvZmlsZXNcXFtbVVNFUl9OQU1FXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJMb2FkRlBGcm9tRm9sZGVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTG9hZFByb3h5RnJvbUZvbGRlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         /*Dat:eyJzIjoiVXNlUHJvZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJEOlxcRG9jdW1lbnRzXFxCQVMtMDAxXFxQcm9maWxlc1xcW1tVU0VSX05BTUVdXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkxvYWRGUEZyb21Gb2xkZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJMb2FkUHJveHlGcm9tRm9sZGVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifV19*/
          var Params = {};
-         var ProfilePath = ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + VAR_USER_NAME);
+         var ProfilePath = ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + VAR_USER_NAME);
          Params["ProfilePath"] = ProfilePath
          Params["LoadFingerprintFromProfileFolder"] = ("true")
          _settings(Params)!
          _if("true" == "true", function(){
-         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + VAR_USER_NAME) + "/fingerprint.json",base64:false,from:0,to:0}))
+         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + VAR_USER_NAME) + "/fingerprint.json",base64:false,from:0,to:0}))
          _if(FINGERPRINT_JSON.length > 0, function(){
          FINGERPRINT_JSON = JSON.parse(FINGERPRINT_JSON)
          _call(BrowserAutomationStudio_ApplyFingerprint,[FINGERPRINT_JSON["fingerprint"],FINGERPRINT_JSON["canvas"],FINGERPRINT_JSON["webgl"],FINGERPRINT_JSON["audio"],FINGERPRINT_JSON["battery"],FINGERPRINT_JSON["rectangles"]])!
          })!
-         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + VAR_USER_NAME) + "/performance.json",base64:false,from:0,to:0}))
+         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + VAR_USER_NAME) + "/performance.json",base64:false,from:0,to:0}))
          _if(FINGERPRINT_JSON.length > 0, function(){
          FINGERPRINT_JSON = JSON.parse(FINGERPRINT_JSON)
          _call(BrowserAutomationStudio_PerformanceFingerprint,FINGERPRINT_JSON)!
@@ -601,7 +664,7 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          var is_error = false;
          try
          {
-         _ARG = JSON.parse(native("filesystem", "readfile", JSON.stringify({value: ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + VAR_USER_NAME) + "/proxy.txt",base64:false,from:0,to:0})))
+         _ARG = JSON.parse(native("filesystem", "readfile", JSON.stringify({value: ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + VAR_USER_NAME) + "/proxy.txt",base64:false,from:0,to:0})))
          _ARG["Port"] = parseInt(_ARG["Port"])
          }catch(e)
          {
@@ -640,21 +703,21 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          section_end()!
 
          section_start("", 205078360)!
-         /*Dat:eyJzIjoiVXNlUHJvZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJFeHByZXNzaW9uVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXhwcmVzc2lvblZhbHVlQ29uZmlybSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IlBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkM6XFxVc2Vyc1xcVXNlclxcRG9jdW1lbnRzXFxCQVMgZ3Vlc3QgZ2VuZXJhdG9yXFxQcm9maWxlc1xce3tQUk9GSUxFU319IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTG9hZEZQRnJvbUZvbGRlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkxvYWRQcm94eUZyb21Gb2xkZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         /*Dat:eyJzIjoiVXNlUHJvZmlsZSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJQYXRoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJEOlxcRG9jdW1lbnRzXFxCQVMtMDAxXFxQcm9maWxlc1xce3tQUk9GSUxFU319IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTG9hZEZQRnJvbUZvbGRlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkxvYWRQcm94eUZyb21Gb2xkZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
          RS("PROFILES", false, false)!
-         RESOURCE_754922 = _result().get()
+         RESOURCE_429862 = _result().get()
          var Params = {};
-         var ProfilePath = ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + RESOURCE_754922);
+         var ProfilePath = ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + RESOURCE_429862);
          Params["ProfilePath"] = ProfilePath
          Params["LoadFingerprintFromProfileFolder"] = ("true")
          _settings(Params)!
          _if("true" == "true", function(){
-         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + RESOURCE_754922) + "/fingerprint.json",base64:false,from:0,to:0}))
+         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + RESOURCE_429862) + "/fingerprint.json",base64:false,from:0,to:0}))
          _if(FINGERPRINT_JSON.length > 0, function(){
          FINGERPRINT_JSON = JSON.parse(FINGERPRINT_JSON)
          _call(BrowserAutomationStudio_ApplyFingerprint,[FINGERPRINT_JSON["fingerprint"],FINGERPRINT_JSON["canvas"],FINGERPRINT_JSON["webgl"],FINGERPRINT_JSON["audio"],FINGERPRINT_JSON["battery"],FINGERPRINT_JSON["rectangles"]])!
          })!
-         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + RESOURCE_754922) + "/performance.json",base64:false,from:0,to:0}))
+         FINGERPRINT_JSON = native("filesystem", "readfile", JSON.stringify({value: ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + RESOURCE_429862) + "/performance.json",base64:false,from:0,to:0}))
          _if(FINGERPRINT_JSON.length > 0, function(){
          FINGERPRINT_JSON = JSON.parse(FINGERPRINT_JSON)
          _call(BrowserAutomationStudio_PerformanceFingerprint,FINGERPRINT_JSON)!
@@ -664,7 +727,7 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          var is_error = false;
          try
          {
-         _ARG = JSON.parse(native("filesystem", "readfile", JSON.stringify({value: ("C:\u005cUsers\u005cUser\u005cDocuments\u005cBAS guest generator\u005cProfiles\u005c" + RESOURCE_754922) + "/proxy.txt",base64:false,from:0,to:0})))
+         _ARG = JSON.parse(native("filesystem", "readfile", JSON.stringify({value: ("D:\u005cDocuments\u005cBAS-001\u005cProfiles\u005c" + RESOURCE_429862) + "/proxy.txt",base64:false,from:0,to:0})))
          _ARG["Port"] = parseInt(_ARG["Port"])
          }catch(e)
          {
@@ -694,46 +757,6 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
          RS("PROXIES", false, false)!
          RESOURCE_435548 = _result().get()
          log("Setting up proxy: " + RESOURCE_435548)
-         section_end()!
-
-         section_start("\u007b\u0022n\u0022:\u0022Setting proxy from resource\u0022\u007d", 70861670)!
-         /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1BST1hJRVN9fSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5VHlwZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3tQUk9YWV9UWVBFfX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eUxvZ2luIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1BST1hZX0xPR0lOfX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVBhc3N3b3JkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e1BST1hZX1BBU1NXT1JEfX0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VUaW1lem9uZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZUdlb2xvY2F0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJmYWxzZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVdlYnJ0Y0lwIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlQnJvd3Nlckxhbmd1YWdlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiRGV0ZWN0RXh0ZXJuYWxJcCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklwSW5mb01ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZGF0YWJhc2UiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEFwaUtleSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiRnVuY3Rpb25OYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoiIn0seyJpZCI6IlRhcmdldFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiKiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlRhcmdldFRhYk51bWJlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiKiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-         RS("PROXIES", false, false)!
-         RESOURCE_251531 = _result().get()
-         RS("PROXY_TYPE", false, false)!
-         RESOURCE_694967 = _result().get()
-         RS("PROXY_LOGIN", false, false)!
-         RESOURCE_134356 = _result().get()
-         RS("PROXY_PASSWORD", false, false)!
-         RESOURCE_476312 = _result().get()
-         /*Browser*/
-         var hash = proxy_parse(RESOURCE_251531)
-         if(RESOURCE_694967 != "auto" ){
-         hash["IsHttp"] = RESOURCE_694967 == "http"
-         }
-         var login = RESOURCE_134356
-         var password = RESOURCE_476312
-         if(login.length > 0 && password.length > 0 )
-         {
-         hash["name"] = login
-         hash["password"] = password
-         }
-         if(_get_profile().length > 0)
-         {
-         if(hash["server"].length == 0)
-         {
-         native("filesystem", "removefile", _get_profile() + "/proxy.txt")
-         }else
-         {
-         var PortNumber = hash["Port"]
-         hash["Port"] = hash["Port"].toString()
-         native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
-         hash["Port"] = PortNumber
-         }
-         }
-         set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
-         sleep(1000)!
-         set_proxy_extended("true" == "true", "false" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null)!
          section_end()!
 
       })!
@@ -1806,55 +1829,34 @@ section(RESOURCE_1 /*{{THREADS}}*/,1000 /*1000*/,10000 /*10000*/,0,function(){
 
    _call(_on_start, null)!
 
-   section_start("", 910005504)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNldHVwX0Jyb3dzZXIifV19*/
-   _call_function(Setup_Browser,{})!
-   _result_function()
+   section_start("", 946940802)!
+   /*Dat:eyJzIjoiRXhlY3V0ZVByb2Nlc3MiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29tbWFuZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHNraWxsIFZwblxuXG50aW1lb3V0IC90IDJcblxudHNraWxsIC9BIFwiT3BlblZQTlwiXG5cbnRpbWVvdXQgL3QgMlxuXG5cIkM6XFxQcm9ncmFtIEZpbGVzXFxBdmFzdCBTb2Z0d2FyZVxcU2VjdXJlTGluZSBWUE5cXFZwbi5leGVcIiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldvcmtpbmdGb2xkZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJQUk9DRVNTX1NUQU5EQVJUX09VVFBVVCJ9LHsiaWQiOiJTYXZlRXJyb3IiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlBST0NFU1NfRVJST1JfT1VUUFVUIn1dfQ==*/
+   RANDOM_FILE = "temp_" + rand() + ".bat"
+   native("filesystem", "writefile", JSON.stringify({path: RANDOM_FILE,value: "chcp 65001\r\n" + (("".length>0) ? ("cd " + "" + "\r\n") : "" ) + (("tskill Vpn\n\ntimeout /t 2\n\ntskill /A \u0022OpenVPN\u0022\n\ntimeout /t 2\n\n\u0022C:\u005cProgram Files\u005cAvast Software\u005cSecureLine VPN\u005cVpn.exe\u0022").replace(/\r?\n/g, "\r\n")),base64:false,append:false}))
+   native_async("processmanager", "start", JSON.stringify({location: RANDOM_FILE, working_folder: "", waitfinish: false, arguments: "", version: 2}))!
+   try
+   {
+   var split = _result().split(",")
+   VAR_PROCESS_STANDART_OUTPUT = base64_decode(split[0])
+   VAR_PROCESS_ERROR_OUTPUT = base64_decode(split[1])
+   }catch(e)
+   {
+   VAR_PROCESS_STANDART_OUTPUT = _result()
+   }
+   sleep(1000)!
+   native("filesystem", "removefile", RANDOM_FILE)
    section_end()!
 
-   section_start("", 795800830)!
-   /*Dat:eyJzIjoicmFuZG9taW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6Ik1pblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiTWF4VmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJSQU5ET01fTlVNQkVSIn1dfQ==*/
-   VAR_RANDOM_NUMBER = Math.floor(Math.random() * (parseInt(1) - parseInt(0) + 1)) + parseInt(0)
+   section_start("", 661752292)!
+   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uaW5zZXZlcmFsdGhyZWFkcyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJNVUxUSV9USFJFQUQifSx7ImlkIjoiVGhyZWFkTnVtYmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lOTkVSX1RIUkVBRFN9fSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJTdWNjZXNzTnVtYmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIyIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRmFpbE51bWJlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAiLCJjbGFzcyI6ImludCJ9XX0=*/
+   RS("INNER_THREADS", false, false)!
+   RESOURCE_248921 = _result().get()
+   _call_section(MULTI_THREAD,RESOURCE_248921,2,10)!
    section_end()!
 
-   section_start("", 504436242)!
-   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjg2OTU5OTgwNiwibWFzdGVyIjo1MDQ0MzYyNDIsImlmX3ZhciI6Il9jeWNsZV9wYXJhbXMoKS5pZl9lbHNlIiwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tSQU5ET01fTlVNQkVSXV0gPT09IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
-   _cycle_params().if_else = VAR_RANDOM_NUMBER === 0;
-   _if(_cycle_params().if_else,function(){
-   section_insert()
-      section_start("", 384033408)!
-      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNlYXJjaF9FbmdpbmUifV19*/
-      _call_function(Search_Engine,{})!
-      _result_function()
-      section_end()!
-
-   })!
-   section_end()!
-
-   section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 869599806)!
-   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6ODY5NTk5ODA2LCJtYXN0ZXIiOjUwNDQzNjI0MiwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1JBTkRPTV9OVU1CRVJdXSA9PT0gMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
-   _if(!_cycle_params().if_else,function(){
-   section_insert()
-      section_start("", 452530561)!
-      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlJlZmVyZXJfV2Vic2l0ZSJ9XX0=*/
-      _call_function(Referer_Website,{})!
-      _result_function()
-      section_end()!
-
-   })!
-   delete _cycle_params().if_else;
-   section_end()!
-
-   section_start("", 934068013)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNjcm9sbF9FbXVsYXRpb24ifV19*/
-   _call_function(Scroll_Emulation,{})!
-   _result_function()
-   section_end()!
-
-   section_start("", 454044839)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IkRvX0NsaWNrcyJ9XX0=*/
-   _call_function(Do_Clicks,{})!
-   _result_function()
+   section_start("", 351031026)!
+   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCf0L7RgtC+0Log0LLRi9C/0L7Qu9C90LXQvSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+   log("Поток выполнен")
    section_end()!
 
 })!]]></Script>
@@ -1889,14 +1891,14 @@ ProxiesReconnect=false
 AutostartDebug=false
 ForceUtf8=true
 SkipFrames=1
-ToolboxHeight=393
+ToolboxHeight=533
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=20
-ScenarioWidth=471
+ScenarioWidth=500
 Zoom=100
 IsMaximized=false
-Restart=false
+Restart=true
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false
@@ -2363,6 +2365,23 @@ http</Values>
                <ReloadInterval>0</ReloadInterval>
                <RenewInterval>-1</RenewInterval>
                <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>INNER_THREADS</Name>
+               <Description en="Threads inside 1 thread" ru="Количество вложенных потоков"/>
+               <SectionName en="Target website" ru="Целевой сайт"/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>RandomInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>RandomInteger</AllowedTypes>
+               <MinUserValue>1</MinUserValue>
+               <MinDesignValue>0</MinDesignValue>
+               <MaxUserValue>5</MaxUserValue>
+               <MaxDesignValue>100</MaxDesignValue>
           </Model>
           <Defaults/>
      </ModelList>
