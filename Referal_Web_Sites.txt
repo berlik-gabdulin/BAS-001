@@ -166,7 +166,7 @@ http://www.straightdope.com/
 http://www.loneiguana.org/
 http://whatever.scalzi.com/
 https://lifehacker.com/
-http://www.fourhourworkweek.com/blog/
+https://tim.blog/
 http://zenhabits.net/
 http://mnmlist.com/
 http://www.thesurvivalpodcast.com/
